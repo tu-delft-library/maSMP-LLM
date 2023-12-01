@@ -4,7 +4,7 @@ This repository contains few eperiments around Retrieval-augmented generation (R
 
 ## Use case
 ---
-Q&A over the code base to understand how it works
+The main goal is capture `software installation instructions` in a README by exploring the chunk strategies (text embedding performance comparison) for LLMs applications, a essential technique that helps optimize the relevance of the context 
 
 ![](images/RAG.png)
 
@@ -15,7 +15,7 @@ This program aims: 1. Get README's from github and send it to a text emmbeddings
 
 
 ## Installation
-
+---
 You might want to create and activate local environment before installing the module:
 
 ```bash
@@ -30,6 +30,7 @@ pip install -r requirements.txt
 ```
 
 ## Experiemnts
+---
 Here you find executable notebooks:
 -  [01_embeddingsOneDoc.ipynb](notebooks/01_embeddingsOneDoc.ipynb)
 -  [02_embeddingsMultipleDocs.ipynb](notebooks/02_embeddingsMultipleDocs.ipynb)
@@ -39,9 +40,9 @@ Here you find executable notebooks:
 The activity was carried out during the maSMP hackathon at [ZB MED](https://www.zbmed.de/en/) sponsored by [NFDI4DataScience](https://www.nfdi4datascience.de/). NFDI4DataScience is a consortium funded by the German Research Foundation (DFG), project number 460234259.
 
 ## ☑️ TODO
-
+---
 - [ ] Get bioinformatics GitHub repositories via SH API
-- [ ] Fetch README's in the pipeline
+- [ ] Fetch README's and experiment with Chunking Strategies
 - [ ] Use other open source LLMs e.g. [LlaMA](https://about.fb.com/news/2023/08/code-llama-ai-for-coding/) via [Ollama integration](https://ollama.ai/blog/run-code-llama-locally)
 - [ ] Re-train the model on more data from UniProt?
 
