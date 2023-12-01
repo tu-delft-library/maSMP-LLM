@@ -1,4 +1,4 @@
-# RAG over SMP
+# RAG over maSMP
 
 This repository contains few eperiments around Retrieval-augmented generation (RAF) and Machine-actionable Software Management Plans (SMP) for the [NFDI4DS Mini Hackathons](https://www.nfdi4datascience.de/community/events/minihackathons/) at ZB Med in Cologne.
 
@@ -10,7 +10,7 @@ Q&A over the code base to understand how it works
 
 ## Overview
 ---
-This program aims: 1. Gets README's from github and send it to a text emmbeddings model employing splitting strategy. 2. Gets the model result ("Installation" or "Not Installation") from an API. 3. If the classification result is "Installation", it will extract metadata from the README using [SOMEF](). 4. [Maybe] Sends the metadata in JSON-LD format to open-source LLM's model and do Q&A
+This program aims: 1. Get README's from github and send it to a text emmbeddings model employing splitting strategy. 2. Gets the model result (has "Installation" or "Not Installation") from a prompt. 3. If the classification result is "Installation", it will extract metadata from the README using open-source [LLM's models](). 4. [Maybe] Sends the metadata in JSON-LD format to [SOMEF](https://somef.readthedocs.io/en/latest/) metadata extractor model to compare the result.
 
 
 
@@ -29,10 +29,10 @@ Install the module:
 pip install -r requirements.txt
 ```
 
-## Use Cases
-Here you find executable notebook in Jupyter:
--  https://mybinder.org/dummy-notebook
-- 
+## Experiemnts
+Here you find executable notebooks:
+-  [01_embeddingsOneDoc.ipynb](notebooks/01_embeddingsOneDoc.ipynb)
+-  [02_embeddingsMultipleDocs.ipynb](notebooks/02_embeddingsMultipleDocs.ipynb)
 
 ## Acknowledges
 ---
