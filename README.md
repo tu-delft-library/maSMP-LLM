@@ -6,9 +6,13 @@ This repository contains few eperiments around Retrieval-augmented generation (R
 ---
 Q&A over the code base to understand how it works
 
+![](images/RAG.png)
+
 ## Overview
 ---
 This program aims: 1. Gets README's from github and send it to a text emmbeddings model employing splitting strategy. 2. Gets the model result ("Installation" or "Not Installation") from an API. 3. If the classification result is "Installation", it will extract metadata from the README using [SOMEF](). 4. [Maybe] Sends the metadata in JSON-LD format to open-source LLM's model and do Q&A
+
+
 
 ## Installation
 
@@ -26,7 +30,9 @@ pip install -r requirements.txt
 ```
 
 ## Use Cases
-
+Here you find executable notebook in Jupyter:
+-  https://mybinder.org/dummy-notebook
+- 
 
 ## Acknowledges
 ---
