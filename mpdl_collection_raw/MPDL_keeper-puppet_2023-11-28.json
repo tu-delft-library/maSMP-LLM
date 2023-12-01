@@ -1,0 +1,220 @@
+{
+    "somef_provenance": {
+        "somef_version": "0.9.4",
+        "somef_schema_version": "1.0.0",
+        "date": "2023-11-28 15:29:22"
+    },
+    "code_repository": [
+        {
+            "result": {
+                "value": "https://github.com/MPDL/keeper-puppet",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "owner": [
+        {
+            "result": {
+                "value": "MPDL",
+                "type": "Organization"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "date_created": [
+        {
+            "result": {
+                "value": "2018-11-16T12:32:08Z",
+                "type": "Date"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "date_updated": [
+        {
+            "result": {
+                "value": "2020-06-09T14:21:00Z",
+                "type": "Date"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "description": [
+        {
+            "result": {
+                "value": "Puppet installation scripts for KEEPER infrastructure",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "name": [
+        {
+            "result": {
+                "value": "keeper-puppet",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "full_name": [
+        {
+            "result": {
+                "value": "MPDL/keeper-puppet",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "issue_tracker": [
+        {
+            "result": {
+                "value": "https://api.github.com/repos/MPDL/keeper-puppet/issues",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "forks_url": [
+        {
+            "result": {
+                "value": "https://api.github.com/repos/MPDL/keeper-puppet/forks",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "stargazers_count": [
+        {
+            "result": {
+                "value": 0,
+                "type": "Number"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "keywords": [
+        {
+            "result": {
+                "value": "",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "forks_count": [
+        {
+            "result": {
+                "value": 1,
+                "type": "Number"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "download_url": [
+        {
+            "result": {
+                "value": "https://github.com/MPDL/keeper-puppet/releases",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "programming_languages": [
+        {
+            "result": {
+                "value": "Puppet",
+                "name": "Puppet",
+                "type": "Programming_language",
+                "size": 27244
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "Ruby",
+                "name": "Ruby",
+                "type": "Programming_language",
+                "size": 1802
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "Shell",
+                "name": "Shell",
+                "type": "Programming_language",
+                "size": 1574
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "readme_url": [
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/keeper-puppet/master/README.md",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        }
+    ],
+    "has_script_file": [
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/keeper-puppet/master/scripts/vagrant_provision.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/keeper-puppet/master/scripts/start_vagrant.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        }
+    ],
+    "installation": [
+        {
+            "result": {
+                "type": "Text_excerpt",
+                "value": "Puppet installation scripts for KEEPER infrastructure \n",
+                "original_header": "keeper-puppet"
+            },
+            "confidence": 0.9332131099411485,
+            "technique": "supervised_classification",
+            "source": "https://raw.githubusercontent.com/MPDL/keeper-puppet/master/README.md"
+        }
+    ],
+    "full_title": [
+        {
+            "result": {
+                "type": "String",
+                "value": "keeper-puppet"
+            },
+            "confidence": 1,
+            "technique": "regular_expression",
+            "source": "https://raw.githubusercontent.com/MPDL/keeper-puppet/master/README.md"
+        }
+    ]
+}

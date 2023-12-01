@@ -1,0 +1,200 @@
+{
+    "somef_provenance": {
+        "somef_version": "0.9.4",
+        "somef_schema_version": "1.0.0",
+        "date": "2023-11-28 15:28:17"
+    },
+    "code_repository": [
+        {
+            "result": {
+                "value": "https://github.com/MPDL/idRestService",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "owner": [
+        {
+            "result": {
+                "value": "MPDL",
+                "type": "Organization"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "date_created": [
+        {
+            "result": {
+                "value": "2017-03-02T14:58:36Z",
+                "type": "Date"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "date_updated": [
+        {
+            "result": {
+                "value": "2017-03-02T15:05:21Z",
+                "type": "Date"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "description": [
+        {
+            "result": {
+                "value": "Sequential incrementing REST-ID Service (NodeJS & PostgreSQL based)",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "name": [
+        {
+            "result": {
+                "value": "idRestService",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "full_name": [
+        {
+            "result": {
+                "value": "MPDL/idRestService",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "issue_tracker": [
+        {
+            "result": {
+                "value": "https://api.github.com/repos/MPDL/idRestService/issues",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "forks_url": [
+        {
+            "result": {
+                "value": "https://api.github.com/repos/MPDL/idRestService/forks",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "stargazers_count": [
+        {
+            "result": {
+                "value": 0,
+                "type": "Number"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "keywords": [
+        {
+            "result": {
+                "value": "",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "forks_count": [
+        {
+            "result": {
+                "value": 0,
+                "type": "Number"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "download_url": [
+        {
+            "result": {
+                "value": "https://github.com/MPDL/idRestService/releases",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "programming_languages": [
+        {
+            "result": {
+                "value": "JavaScript",
+                "name": "JavaScript",
+                "type": "Programming_language",
+                "size": 3055
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "readme_url": [
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/idRestService/master/readme.md",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        }
+    ],
+    "installation": [
+        {
+            "result": {
+                "value": "\r\nGet the current version.\r\n\r\nCreate a database\r\n```sql\r\nCREATE DATABASE id_generator\r\n  WITH OWNER = myowner\r\n       ENCODING = 'UTF8'\r\n       TABLESPACE = pg_default\r\n       CONNECTION LIMIT = -1;\r\n```\r\nCreate a table (column must be named \"currentid\")\r\n```sql\r\nCREATE TABLE id\r\n(\r\n  currentid integer\r\n)\r\nWITH (\r\n  OIDS=FALSE\r\n);\r\nALTER TABLE id\r\n  OWNER TO myowner;\r\n```\r\nAdd a value into your created table\r\n```sql\r\nINSERT INTO id VALUES (1);\r\n```\r\n\r\nAdjust config.json to fit your db configuration\r\n\r",
+                "type": "Text_excerpt",
+                "original_header": "Install",
+                "parent_header": [
+                    "Sequential incrementing REST-ID Service"
+                ]
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/idRestService/master/readme.md"
+        }
+    ],
+    "usage": [
+        {
+            "result": {
+                "value": "\r\n```sh\r\n$ node idServer.js\r\n```\r\n\r\nGo to your webbrowser and call localhost:yourport/id to get the next id and increment the db entry\r\nThe db pool is set to 1 so no concurrency should be possible",
+                "type": "Text_excerpt",
+                "original_header": "Start",
+                "parent_header": [
+                    "Sequential incrementing REST-ID Service"
+                ]
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/idRestService/master/readme.md"
+        }
+    ],
+    "full_title": [
+        {
+            "result": {
+                "type": "String",
+                "value": "Sequential incrementing REST-ID Service"
+            },
+            "confidence": 1,
+            "technique": "regular_expression",
+            "source": "https://raw.githubusercontent.com/MPDL/idRestService/master/readme.md"
+        }
+    ]
+}

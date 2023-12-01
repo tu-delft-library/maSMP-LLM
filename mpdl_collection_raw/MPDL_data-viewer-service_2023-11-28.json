@@ -1,0 +1,257 @@
+{
+    "somef_provenance": {
+        "somef_version": "0.9.4",
+        "somef_schema_version": "1.0.0",
+        "date": "2023-11-28 15:24:54"
+    },
+    "code_repository": [
+        {
+            "result": {
+                "value": "https://github.com/MPDL/data-viewer-service",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "owner": [
+        {
+            "result": {
+                "value": "MPDL",
+                "type": "Organization"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "date_created": [
+        {
+            "result": {
+                "value": "2014-09-30T17:06:06Z",
+                "type": "Date"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "date_updated": [
+        {
+            "result": {
+                "value": "2015-02-12T23:00:05Z",
+                "type": "Date"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "name": [
+        {
+            "result": {
+                "value": "data-viewer-service",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "full_name": [
+        {
+            "result": {
+                "value": "MPDL/data-viewer-service",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "issue_tracker": [
+        {
+            "result": {
+                "value": "https://api.github.com/repos/MPDL/data-viewer-service/issues",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "forks_url": [
+        {
+            "result": {
+                "value": "https://api.github.com/repos/MPDL/data-viewer-service/forks",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "stargazers_count": [
+        {
+            "result": {
+                "value": 0,
+                "type": "Number"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "keywords": [
+        {
+            "result": {
+                "value": "",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "forks_count": [
+        {
+            "result": {
+                "value": 0,
+                "type": "Number"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "download_url": [
+        {
+            "result": {
+                "value": "https://github.com/MPDL/data-viewer-service/releases",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "programming_languages": [
+        {
+            "result": {
+                "value": "Java",
+                "name": "Java",
+                "type": "Programming_language",
+                "size": 29318
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "readme_url": [
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/data-viewer-service/master/README.md",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        }
+    ],
+    "installation": [
+        {
+            "result": {
+                "value": "1. Install Maven [download](http://maven.apache.org/download.cgi)\r\n2. Install Tomcat [download](http://maven.apache.org/download.cgi)\r\n3. `git clone https://github.com/MPDL/data-viewer-service`\r\n5. Compile the service: go into `data-viewer-service directory`, run `mvn clean install`\r\n6. Copy `data-viewer.war` in Tomcat `webapp` directory\r\n7. Create file `data-viewer-service.properties`, add following property in it (see provided file in src/WEB-INF directory) \r\n\r\n and put the file into Tomcat `conf` directory\r\n\r\n8. Start Tomcat\r\n9. Service runs under `http://localhost:8080/data-viewer`\r\n\r",
+                "type": "Text_excerpt",
+                "original_header": "Installation",
+                "parent_header": [
+                    "Data-Viewer-Service"
+                ]
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/data-viewer-service/master/README.md"
+        }
+    ],
+    "usage": [
+        {
+            "result": {
+                "value": "Following REST commands are implemented:\r\n\r",
+                "type": "Text_excerpt",
+                "original_header": "Usage REST API",
+                "parent_header": [
+                    "Data-Viewer-Service"
+                ]
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/data-viewer-service/master/README.md"
+        },
+        {
+            "result": {
+                "value": "- **Media type**: multipart/form-data\r\n- **Input fields**: \r\n  - field 1:\r\n    - **name**: file1\r\n    - **type**: file\r\n    - **value**: locally selected file for visualization\r\n  - field 2:\r\n    - **name**: mimetype\r\n    - **type**: text\r\n- **Response**:\r\nDelivers HTML view representation of the file, generated by invocation of the specific viewer service \r\n \r\n##### **Path**: /api/view\r\n- **Method**: GET\r\n- **Media type**: application/x-www-form-urlencoded\r\n- **Input fields**: \r\n  - field 1:\r\n    - **name**: url\r\n    - **type**: text\r\n    - **value**: link to the file which needs to be visualized\r\n  - field 2:\r\n    - **name**: load\r\n    - **type**: text\r\n    - **value**: true|flase\r\n  - field 3:\r\n    - **name**: mimetype\r\n    - **type**: text\r\n- **Response**:\r\nDelivers HTML view representation of the file, generated by invocation of the specific viewer service \r\n\r",
+                "type": "Text_excerpt",
+                "original_header": "**Path**: /api/view",
+                "parent_header": [
+                    "Data-Viewer-Service",
+                    "Usage REST API"
+                ]
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/data-viewer-service/master/README.md"
+        },
+        {
+            "result": {
+                "value": "- **Media type**: application/x-www-form-urlencoded\r\n- **Response**:\r\nDelivers JSON representation of specific viewer services supported by this data viewer. \r\n\r\n##### **Path**: /api/explain/services\r\n- **Method**: GET\r\n- **Media type**: application/x-www-form-urlencoded\r\n- **Response**:\r\nDelivers JSON representation of specific viewer services supported by this data viewer. \r\n\r",
+                "type": "Text_excerpt",
+                "original_header": "**Path**: /api/explain/services",
+                "parent_header": [
+                    "Data-Viewer-Service",
+                    "Usage REST API"
+                ]
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/data-viewer-service/master/README.md"
+        },
+        {
+            "result": {
+                "value": "- **Media type**: application/x-www-form-urlencoded\r\n- **Response**:\r\nDelivers JSON representation of formats for which this data viewer can invoke specific viewers.  Only one format per viewer is supported.\r\n\r",
+                "type": "Text_excerpt",
+                "original_header": "**Path**: /api/explain/formats",
+                "parent_header": [
+                    "Data-Viewer-Service",
+                    "Usage REST API"
+                ]
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/data-viewer-service/master/README.md"
+        },
+        {
+            "result": {
+                "value": "Go to e.g. http://localhost:8080/data-viewer/\r\n\r\nand you have a simple web form to test the service\r\n",
+                "type": "Text_excerpt",
+                "original_header": "Usage simple web form",
+                "parent_header": [
+                    "Data-Viewer-Service"
+                ]
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/data-viewer-service/master/README.md"
+        }
+    ],
+    "full_title": [
+        {
+            "result": {
+                "type": "String",
+                "value": "Data-Viewer-Service"
+            },
+            "confidence": 1,
+            "technique": "regular_expression",
+            "source": "https://raw.githubusercontent.com/MPDL/data-viewer-service/master/README.md"
+        }
+    ],
+    "documentation": [
+        {
+            "result": {
+                "type": "Url",
+                "value": "https://github.com/MPDL/data-viewer-service/wiki",
+                "format": "wiki"
+            },
+            "confidence": 1,
+            "technique": "regular_expression",
+            "source": "https://raw.githubusercontent.com/MPDL/data-viewer-service/master/README.md"
+        }
+    ]
+}

@@ -1,0 +1,288 @@
+{
+    "somef_provenance": {
+        "somef_version": "0.9.4",
+        "somef_schema_version": "1.0.0",
+        "date": "2023-11-28 15:29:33"
+    },
+    "code_repository": [
+        {
+            "result": {
+                "value": "https://github.com/MPDL/rdm-homepage",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "owner": [
+        {
+            "result": {
+                "value": "MPDL",
+                "type": "Organization"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "date_created": [
+        {
+            "result": {
+                "value": "2019-12-03T08:38:39Z",
+                "type": "Date"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "date_updated": [
+        {
+            "result": {
+                "value": "2021-05-21T06:50:51Z",
+                "type": "Date"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "name": [
+        {
+            "result": {
+                "value": "rdm-homepage",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "full_name": [
+        {
+            "result": {
+                "value": "MPDL/rdm-homepage",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "issue_tracker": [
+        {
+            "result": {
+                "value": "https://api.github.com/repos/MPDL/rdm-homepage/issues",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "forks_url": [
+        {
+            "result": {
+                "value": "https://api.github.com/repos/MPDL/rdm-homepage/forks",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "stargazers_count": [
+        {
+            "result": {
+                "value": 0,
+                "type": "Number"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "keywords": [
+        {
+            "result": {
+                "value": "",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "forks_count": [
+        {
+            "result": {
+                "value": 0,
+                "type": "Number"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "download_url": [
+        {
+            "result": {
+                "value": "https://github.com/MPDL/rdm-homepage/releases",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "programming_languages": [
+        {
+            "result": {
+                "value": "JavaScript",
+                "name": "JavaScript",
+                "type": "Programming_language",
+                "size": 10364813
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "HTML",
+                "name": "HTML",
+                "type": "Programming_language",
+                "size": 342379
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "Vue",
+                "name": "Vue",
+                "type": "Programming_language",
+                "size": 193046
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "CSS",
+                "name": "CSS",
+                "type": "Programming_language",
+                "size": 86526
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "SCSS",
+                "name": "SCSS",
+                "type": "Programming_language",
+                "size": 27013
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "readme_url": [
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/rdm-homepage/master/README.md",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        }
+    ],
+    "license": [
+        {
+            "result": {
+                "value": "Software License Agreement\n==========================\n\n**CKEditor SCAYT Plugin**\nCopyright &copy; 2012, [CKSource](http://cksource.com) - Frederico Knabben. All rights reserved.\n\nLicensed under the terms of any of the following licenses at your choice:\n\n*   GNU General Public License Version 2 or later (the \"GPL\"):\n    http://www.gnu.org/licenses/gpl.html\n\n*   GNU Lesser General Public License Version 2.1 or later (the \"LGPL\"):\n    http://www.gnu.org/licenses/lgpl.html\n\n*   Mozilla Public License Version 1.1 or later (the \"MPL\"):\n    http://www.mozilla.org/MPL/MPL-1.1.html\n\nYou are not required to, but if you want to explicitly declare the license you have chosen to be bound to when using, reproducing, modifying and distributing this software, just include a text file titled \"legal.txt\" in your version of this software, indicating your license choice.\n\nSources of Intellectual Property Included in this plugin\n--------------------------------------------------------\n\nWhere not otherwise indicated, all plugin content is authored by CKSource engineers and consists of CKSource-owned intellectual property. In some specific instances, the plugin will incorporate work done by developers outside of CKSource with their express permission.\n\nTrademarks\n----------\n\nCKEditor is a trademark of CKSource - Frederico Knabben. All other brand and product names are trademarks, registered trademarks or service marks of their respective holders.\n",
+                "type": "File_dump"
+            },
+            "confidence": 1,
+            "technique": "file_exploration",
+            "source": "https://raw.githubusercontent.com/MPDL/rdm-homepage/master/public/lib/ckeditor-all/plugins/scayt/LICENSE.md"
+        },
+        {
+            "result": {
+                "value": "Software License Agreement\n==========================\n\n**CKEditor WSC Plugin**\nCopyright &copy; 2012, [CKSource](http://cksource.com) - Frederico Knabben. All rights reserved.\n\nLicensed under the terms of any of the following licenses at your choice:\n\n*   GNU General Public License Version 2 or later (the \"GPL\"):\n    http://www.gnu.org/licenses/gpl.html\n\n*   GNU Lesser General Public License Version 2.1 or later (the \"LGPL\"):\n    http://www.gnu.org/licenses/lgpl.html\n\n*   Mozilla Public License Version 1.1 or later (the \"MPL\"):\n    http://www.mozilla.org/MPL/MPL-1.1.html\n\nYou are not required to, but if you want to explicitly declare the license you have chosen to be bound to when using, reproducing, modifying and distributing this software, just include a text file titled \"legal.txt\" in your version of this software, indicating your license choice.\n\nSources of Intellectual Property Included in this plugin\n--------------------------------------------------------\n\nWhere not otherwise indicated, all plugin content is authored by CKSource engineers and consists of CKSource-owned intellectual property. In some specific instances, the plugin will incorporate work done by developers outside of CKSource with their express permission.\n\nTrademarks\n----------\n\nCKEditor is a trademark of CKSource - Frederico Knabben. All other brand and product names are trademarks, registered trademarks or service marks of their respective holders.\n",
+                "type": "File_dump"
+            },
+            "confidence": 1,
+            "technique": "file_exploration",
+            "source": "https://raw.githubusercontent.com/MPDL/rdm-homepage/master/public/lib/ckeditor-all/plugins/wsc/LICENSE.md"
+        }
+    ],
+    "installation": [
+        {
+            "result": {
+                "value": "```\nnpm install\n```\n",
+                "type": "Text_excerpt",
+                "original_header": "Project setup",
+                "parent_header": [
+                    "rdm-homepage"
+                ]
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/rdm-homepage/master/README.md"
+        },
+        {
+            "result": {
+                "value": "```\nnpm run serve\n```\n",
+                "type": "Text_excerpt",
+                "original_header": "Compiles and hot-reloads for development",
+                "parent_header": [
+                    "rdm-homepage",
+                    "Project setup"
+                ]
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/rdm-homepage/master/README.md"
+        },
+        {
+            "result": {
+                "value": "```\nnpm run build\n```\n",
+                "type": "Text_excerpt",
+                "original_header": "Compiles and minifies for production",
+                "parent_header": [
+                    "rdm-homepage",
+                    "Project setup"
+                ]
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/rdm-homepage/master/README.md"
+        }
+    ],
+    "run": [
+        {
+            "result": {
+                "value": "On /public/config/setup.js, set \nwindow.BASE_CONFIG = configCms\n( which points to http://127.0.0.1:8082, the default server configuration )",
+                "type": "Text_excerpt",
+                "original_header": "To run this frontend with rdm-homepage-server instead of its own flatfiles (local):",
+                "parent_header": [
+                    "rdm-homepage"
+                ]
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/rdm-homepage/master/README.md"
+        }
+    ],
+    "application_domain": [
+        {
+            "result": {
+                "type": "String",
+                "value": "Semantic web"
+            },
+            "confidence": 0.9274414626932133,
+            "technique": "supervised_classification"
+        }
+    ],
+    "full_title": [
+        {
+            "result": {
+                "type": "String",
+                "value": "rdm-homepage"
+            },
+            "confidence": 1,
+            "technique": "regular_expression",
+            "source": "https://raw.githubusercontent.com/MPDL/rdm-homepage/master/README.md"
+        }
+    ]
+}

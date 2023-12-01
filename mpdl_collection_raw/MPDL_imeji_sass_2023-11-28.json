@@ -1,0 +1,289 @@
+{
+    "somef_provenance": {
+        "somef_version": "0.9.4",
+        "somef_schema_version": "1.0.0",
+        "date": "2023-11-28 15:28:02"
+    },
+    "code_repository": [
+        {
+            "result": {
+                "value": "https://github.com/MPDL/imeji_sass",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "owner": [
+        {
+            "result": {
+                "value": "MPDL",
+                "type": "Organization"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "date_created": [
+        {
+            "result": {
+                "value": "2016-07-07T14:06:23Z",
+                "type": "Date"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "date_updated": [
+        {
+            "result": {
+                "value": "2022-12-12T09:27:16Z",
+                "type": "Date"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "description": [
+        {
+            "result": {
+                "value": "CSS solution for imeji software",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "imeji sass is the migration from classic css to the sass framework compass. It creates possibilities for smarter cross-instance modifications, because every instance needs for them application css only one file with variables and could include all other declarations from imeji default. You should only migrate the _vars.scss to your wished instance and have no trouble with changed or new core css declarations.\n\n",
+                "type": "Text_excerpt",
+                "original_header": "DESCRIPTION",
+                "parent_header": [
+                    "IMEJI SASS"
+                ]
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/imeji_sass/imeji4.2/README.md"
+        },
+        {
+            "result": {
+                "type": "Text_excerpt",
+                "value": "The _combinedStyles.scss includes all separated scss-files without the _vars.scss. That gives the advantage for other instance to include only the own variable.scss and the _combinedStyles.scss from imeji default without any knowledge of every file-hierachy separation. \n",
+                "original_header": "STRUCTURE"
+            },
+            "confidence": 0.9758988214991425,
+            "technique": "supervised_classification",
+            "source": "https://raw.githubusercontent.com/MPDL/imeji_sass/imeji4.2/README.md"
+        },
+        {
+            "result": {
+                "type": "Text_excerpt",
+                "value": "EVERY folder in root directory symbolize an instance of imeji and is a COMPASS project. \n",
+                "original_header": "NOTICE"
+            },
+            "confidence": 0.9521476489380746,
+            "technique": "supervised_classification",
+            "source": "https://raw.githubusercontent.com/MPDL/imeji_sass/imeji4.2/README.md"
+        }
+    ],
+    "name": [
+        {
+            "result": {
+                "value": "imeji_sass",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "full_name": [
+        {
+            "result": {
+                "value": "MPDL/imeji_sass",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "issue_tracker": [
+        {
+            "result": {
+                "value": "https://api.github.com/repos/MPDL/imeji_sass/issues",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "forks_url": [
+        {
+            "result": {
+                "value": "https://api.github.com/repos/MPDL/imeji_sass/forks",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "stargazers_count": [
+        {
+            "result": {
+                "value": 0,
+                "type": "Number"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "keywords": [
+        {
+            "result": {
+                "value": "",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "forks_count": [
+        {
+            "result": {
+                "value": 0,
+                "type": "Number"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "download_url": [
+        {
+            "result": {
+                "value": "https://github.com/MPDL/imeji_sass/releases",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "programming_languages": [
+        {
+            "result": {
+                "value": "CSS",
+                "name": "CSS",
+                "type": "Programming_language",
+                "size": 1273139
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "SCSS",
+                "name": "SCSS",
+                "type": "Programming_language",
+                "size": 462133
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "HTML",
+                "name": "HTML",
+                "type": "Programming_language",
+                "size": 17146
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "Ruby",
+                "name": "Ruby",
+                "type": "Programming_language",
+                "size": 6439
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "readme_url": [
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/imeji_sass/imeji4.2/README.md",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        }
+    ],
+    "requirements": [
+        {
+            "result": {
+                "value": "```\n$ sass -v\nSass 3.3.8 (Maptastic Maple)\n$ compass -v\nCompass 0.12.6 (Alnilam)\nCopyright (c) 2008-2014 Chris Eppstein\nReleased under the MIT License.\nCompass is charityware.\nPlease make a tax deductable donation for a worthy cause: http://umdf.org/compass\n```\n\n",
+                "type": "Text_excerpt",
+                "original_header": "REQUIREMENTS",
+                "parent_header": [
+                    "IMEJI SASS"
+                ]
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/imeji_sass/imeji4.2/README.md"
+        }
+    ],
+    "installation": [
+        {
+            "result": {
+                "value": "You find a very practicable installation guide on http://www.compass-style.org/install/ .\n",
+                "type": "Text_excerpt",
+                "original_header": "INSTALL",
+                "parent_header": [
+                    "IMEJI SASS"
+                ]
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/imeji_sass/imeji4.2/README.md"
+        },
+        {
+            "result": {
+                "value": "If you get a failure (e.g. on Debian systems) with \"$ gem update --system\", please try the following steps in front of update system:\n```\nsudo gem install rubygems-update  \nsudo update_rubygems\nsudo gem update --system\n```\nIf you get a failure for installing compass, try following:\n```\nsudo apt-get install ruby-dev\nsudo gem install sass\nsudo gem install compass\n```\n",
+                "type": "Text_excerpt",
+                "original_header": "For troubleshooting (on your own risk!!!)",
+                "parent_header": [
+                    "IMEJI SASS",
+                    "INSTALL"
+                ]
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/imeji_sass/imeji4.2/README.md"
+        }
+    ],
+    "full_title": [
+        {
+            "result": {
+                "type": "String",
+                "value": "IMEJI SASS"
+            },
+            "confidence": 1,
+            "technique": "regular_expression",
+            "source": "https://raw.githubusercontent.com/MPDL/imeji_sass/imeji4.2/README.md"
+        }
+    ],
+    "documentation": [
+        {
+            "result": {
+                "type": "Url",
+                "value": "https://github.com/MPDL/imeji_sass/wiki",
+                "format": "wiki"
+            },
+            "confidence": 1,
+            "technique": "regular_expression",
+            "source": "https://raw.githubusercontent.com/MPDL/imeji_sass/imeji4.2/README.md"
+        }
+    ]
+}

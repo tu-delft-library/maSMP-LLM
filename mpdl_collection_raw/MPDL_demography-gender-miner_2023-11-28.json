@@ -1,0 +1,224 @@
+{
+    "somef_provenance": {
+        "somef_version": "0.9.4",
+        "somef_schema_version": "1.0.0",
+        "date": "2023-11-28 15:24:51"
+    },
+    "code_repository": [
+        {
+            "result": {
+                "value": "https://github.com/MPDL/demography-gender-miner",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "owner": [
+        {
+            "result": {
+                "value": "MPDL",
+                "type": "Organization"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "date_created": [
+        {
+            "result": {
+                "value": "2014-09-22T13:28:51Z",
+                "type": "Date"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "date_updated": [
+        {
+            "result": {
+                "value": "2014-09-22T13:30:36Z",
+                "type": "Date"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "name": [
+        {
+            "result": {
+                "value": "demography-gender-miner",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "full_name": [
+        {
+            "result": {
+                "value": "MPDL/demography-gender-miner",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "issue_tracker": [
+        {
+            "result": {
+                "value": "https://api.github.com/repos/MPDL/demography-gender-miner/issues",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "forks_url": [
+        {
+            "result": {
+                "value": "https://api.github.com/repos/MPDL/demography-gender-miner/forks",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "stargazers_count": [
+        {
+            "result": {
+                "value": 0,
+                "type": "Number"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "keywords": [
+        {
+            "result": {
+                "value": "",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "forks_count": [
+        {
+            "result": {
+                "value": 0,
+                "type": "Number"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "download_url": [
+        {
+            "result": {
+                "value": "https://github.com/MPDL/demography-gender-miner/releases",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "programming_languages": [
+        {
+            "result": {
+                "value": "Java",
+                "name": "Java",
+                "type": "Programming_language",
+                "size": 7647
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "Groovy",
+                "name": "Groovy",
+                "type": "Programming_language",
+                "size": 2429
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "readme_url": [
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/demography-gender-miner/master/README.md",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        }
+    ],
+    "installation": [
+        {
+            "result": {
+                "value": "* `git clone https://github.com/MPDL/demography-gender-miner.git`\n* `cd demography-gender-miner`\n* `gradle test run`\n\n",
+                "type": "Text_excerpt",
+                "original_header": "Install &amp; Run",
+                "parent_header": [
+                    "demography-gender-miner"
+                ]
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/demography-gender-miner/master/README.md"
+        }
+    ],
+    "run": [
+        {
+            "result": {
+                "value": "* `git clone https://github.com/MPDL/demography-gender-miner.git`\n* `cd demography-gender-miner`\n* `gradle test run`\n\n",
+                "type": "Text_excerpt",
+                "original_header": "Install &amp; Run",
+                "parent_header": [
+                    "demography-gender-miner"
+                ]
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/demography-gender-miner/master/README.md"
+        }
+    ],
+    "description": [
+        {
+            "result": {
+                "type": "Text_excerpt",
+                "value": "Prototype for extraction of the Journal Demography publications and analyze of the authors gender structure of the Corpus\n \n",
+                "original_header": "demography-gender-miner"
+            },
+            "confidence": 0.9711577598547051,
+            "technique": "supervised_classification",
+            "source": "https://raw.githubusercontent.com/MPDL/demography-gender-miner/master/README.md"
+        }
+    ],
+    "full_title": [
+        {
+            "result": {
+                "type": "String",
+                "value": "demography-gender-miner"
+            },
+            "confidence": 1,
+            "technique": "regular_expression",
+            "source": "https://raw.githubusercontent.com/MPDL/demography-gender-miner/master/README.md"
+        }
+    ],
+    "documentation": [
+        {
+            "result": {
+                "type": "Url",
+                "value": "https://github.com/MPDL/demography-gender-miner/wiki",
+                "format": "wiki"
+            },
+            "confidence": 1,
+            "technique": "regular_expression",
+            "source": "https://raw.githubusercontent.com/MPDL/demography-gender-miner/master/README.md"
+        }
+    ]
+}

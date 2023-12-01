@@ -1,0 +1,245 @@
+{
+    "somef_provenance": {
+        "somef_version": "0.9.4",
+        "somef_schema_version": "1.0.0",
+        "date": "2023-11-28 15:30:19"
+    },
+    "code_repository": [
+        {
+            "result": {
+                "value": "https://github.com/MPDL/r2d2-ng",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "owner": [
+        {
+            "result": {
+                "value": "MPDL",
+                "type": "Organization"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "date_created": [
+        {
+            "result": {
+                "value": "2021-03-18T13:47:04Z",
+                "type": "Date"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "date_updated": [
+        {
+            "result": {
+                "value": "2021-06-25T07:44:37Z",
+                "type": "Date"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "name": [
+        {
+            "result": {
+                "value": "r2d2-ng",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "full_name": [
+        {
+            "result": {
+                "value": "MPDL/r2d2-ng",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "issue_tracker": [
+        {
+            "result": {
+                "value": "https://api.github.com/repos/MPDL/r2d2-ng/issues",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "forks_url": [
+        {
+            "result": {
+                "value": "https://api.github.com/repos/MPDL/r2d2-ng/forks",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "stargazers_count": [
+        {
+            "result": {
+                "value": 0,
+                "type": "Number"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "keywords": [
+        {
+            "result": {
+                "value": "",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "forks_count": [
+        {
+            "result": {
+                "value": 0,
+                "type": "Number"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "download_url": [
+        {
+            "result": {
+                "value": "https://github.com/MPDL/r2d2-ng/releases",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "programming_languages": [
+        {
+            "result": {
+                "value": "TypeScript",
+                "name": "TypeScript",
+                "type": "Programming_language",
+                "size": 109240
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "HTML",
+                "name": "HTML",
+                "type": "Programming_language",
+                "size": 65216
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "JavaScript",
+                "name": "JavaScript",
+                "type": "Programming_language",
+                "size": 12394
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "SCSS",
+                "name": "SCSS",
+                "type": "Programming_language",
+                "size": 4878
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "readme_url": [
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/r2d2-ng/main/README.md",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        }
+    ],
+    "run": [
+        {
+            "result": {
+                "value": "Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).\n",
+                "type": "Text_excerpt",
+                "original_header": "Running unit tests",
+                "parent_header": [
+                    "r2d2-ng"
+                ]
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/r2d2-ng/main/README.md"
+        },
+        {
+            "result": {
+                "value": "Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).\n",
+                "type": "Text_excerpt",
+                "original_header": "Running end-to-end tests",
+                "parent_header": [
+                    "r2d2-ng"
+                ]
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/r2d2-ng/main/README.md"
+        }
+    ],
+    "support": [
+        {
+            "result": {
+                "value": "To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.\n",
+                "type": "Text_excerpt",
+                "original_header": "Further help",
+                "parent_header": [
+                    "r2d2-ng"
+                ]
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/r2d2-ng/main/README.md"
+        }
+    ],
+    "description": [
+        {
+            "result": {
+                "type": "Text_excerpt",
+                "value": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.5.\n \n",
+                "original_header": "r2d2-ng"
+            },
+            "confidence": 0.9164446008933143,
+            "technique": "supervised_classification",
+            "source": "https://raw.githubusercontent.com/MPDL/r2d2-ng/main/README.md"
+        }
+    ],
+    "full_title": [
+        {
+            "result": {
+                "type": "String",
+                "value": "r2d2-ng"
+            },
+            "confidence": 1,
+            "technique": "regular_expression",
+            "source": "https://raw.githubusercontent.com/MPDL/r2d2-ng/main/README.md"
+        }
+    ]
+}

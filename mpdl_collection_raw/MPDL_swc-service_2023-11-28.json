@@ -1,0 +1,296 @@
+{
+    "somef_provenance": {
+        "somef_version": "0.9.4",
+        "somef_schema_version": "1.0.0",
+        "date": "2023-11-28 15:24:27"
+    },
+    "code_repository": [
+        {
+            "result": {
+                "value": "https://github.com/MPDL/swc-service",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "owner": [
+        {
+            "result": {
+                "value": "MPDL",
+                "type": "Organization"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "date_created": [
+        {
+            "result": {
+                "value": "2014-08-05T07:40:41Z",
+                "type": "Date"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "date_updated": [
+        {
+            "result": {
+                "value": "2015-03-23T17:55:22Z",
+                "type": "Date"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "license": [
+        {
+            "result": {
+                "value": "https://api.github.com/licenses/mit",
+                "type": "License",
+                "name": "MIT License",
+                "url": "https://api.github.com/licenses/mit",
+                "spdx_id": "MIT"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "The MIT License (MIT)\n\nCopyright (c) 2014 Max Planck Digital Library\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+                "type": "File_dump"
+            },
+            "confidence": 1,
+            "technique": "file_exploration",
+            "source": "https://raw.githubusercontent.com/MPDL/swc-service/master/LICENSE"
+        }
+    ],
+    "description": [
+        {
+            "result": {
+                "value": "Web service to visualize and analize swc data ",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "name": [
+        {
+            "result": {
+                "value": "swc-service",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "full_name": [
+        {
+            "result": {
+                "value": "MPDL/swc-service",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "issue_tracker": [
+        {
+            "result": {
+                "value": "https://api.github.com/repos/MPDL/swc-service/issues",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "forks_url": [
+        {
+            "result": {
+                "value": "https://api.github.com/repos/MPDL/swc-service/forks",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "stargazers_count": [
+        {
+            "result": {
+                "value": 1,
+                "type": "Number"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "keywords": [
+        {
+            "result": {
+                "value": "",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "forks_count": [
+        {
+            "result": {
+                "value": 2,
+                "type": "Number"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "download_url": [
+        {
+            "result": {
+                "value": "https://github.com/MPDL/swc-service/releases",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "programming_languages": [
+        {
+            "result": {
+                "value": "JavaScript",
+                "name": "JavaScript",
+                "type": "Programming_language",
+                "size": 888425
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "HTML",
+                "name": "HTML",
+                "type": "Programming_language",
+                "size": 505218
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "Java",
+                "name": "Java",
+                "type": "Programming_language",
+                "size": 35982
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "readme_url": [
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/swc-service/master/README.md",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        }
+    ],
+    "installation": [
+        {
+            "result": {
+                "value": "1. Install Maven [download](http://maven.apache.org/download.cgi)\n2. Install Tomcat [download](http://maven.apache.org/download.cgi)\n3. Install L-Measure [download](http://cng.gmu.edu/Lm/)\n4. `git clone https://github.com/MPDL/swc-service`\n5. Compile the service: go into `swc-service directory`, run `mvn clean install`\n6. Copy `swc.war` in Tomcat `webapp` directory\n7. Create file `swc-service.properties`, add following property in it\n```\nscreenshot.service.url = base_url_to_screenshot_service/screenshot\nlmeasure.bin = path_to_the_lmeasure_binary\n```\n and put the file into Tomcat `conf` directory\n\n8. Start Tomcat\n9. Service runs under `http://localhost:8080/swc`\n",
+                "type": "Text_excerpt",
+                "original_header": "Installation",
+                "parent_header": [
+                    "swc-service"
+                ]
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/swc-service/master/README.md"
+        }
+    ],
+    "usage": [
+        {
+            "result": {
+                "value": "Following REST commands are implemented:\n",
+                "type": "Text_excerpt",
+                "original_header": "Usage",
+                "parent_header": [
+                    "swc-service"
+                ]
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/swc-service/master/README.md"
+        },
+        {
+            "result": {
+                "value": "- **Media type**: multipart/form-data\n- **Input fields**: \n  - field 1:\n    - **name**: file1\n    - **type**: file\n    - **value**: locally selected SWC file\n  - field 2:\n    - **name**: portable\n    - **type**: text\n    - **value**: true|false(default)\n- **Response**:\nDelivers HTML view representation of the SWC file. \n \n##### **Path**: /api/view\n- **Method**: POST\n- **Media type**: application/x-www-form-urlencoded\n- **Input fields**: \n  - field 1:\n    - **name**: swc\n    - **type**: text/texarea\n    - **value**: SWC text\n  - field 2:\n    - **name**: portable\n    - **type**: text\n    - **value**: true|false(default)\n- **Response**:\nDelivers HTML view representation of the SWC text. \n\n##### **Path**: /api/view\n- **Method**: GET\n- **Media type**: application/x-www-form-urlencoded\n- **Input fields**: \n  - field 1:\n    - **name**: url\n    - **type**: text\n    - **value**: link to the SWC URL\n  - field 2:\n    - **name**: portable\n    - **type**: text\n    - **value**: true|false(default)\n- **Response**:\nreturns HTML view representation of the SWC text referenced by the URL. \n\n**Note:** Setting of `portable=\"true\"` generates html which can be used offline.\n",
+                "type": "Text_excerpt",
+                "original_header": "**Path**: /api/view",
+                "parent_header": [
+                    "swc-service",
+                    "Usage"
+                ]
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/swc-service/master/README.md"
+        },
+        {
+            "result": {
+                "value": "- **Media type**: multipart/form-data\n- **Input fields**: \n  - field 1:\n    - **name**: file1\n    - **type**: file\n    - **value**: locally selected SWC file\n  - field 2:\n    - **name**: numberOfBins\n    - **type**: number\n    - **value**: [see L-Measure help](http://cng.gmu.edu/Lm/help/index.htm)\n  - field 3:\n    - **name**: typeOfBins\n    - **type**: text\n    - **value**: number|width [see L-Measure help](http://cng.gmu.edu/Lm/help/index.htm)\n  - field 3:\n    - **name**: query\n    - **type**: text\n    - **value**: The L-Measure functions (for instance -f0,0,0,10.0 ) [see L-Measure help](http://cng.gmu.edu/Lm/help/index.htm)\n- **Response**:\nDelivers JSON File with the L-Measure result. \n \n##### **Path**: /api/analyze\n- **Method**: POST\n- **Media type**: application/x-www-form-urlencoded\n- **Input fields**: \n  - field 1:\n    - **name**: swc\n    - **type**: text/texarea\n    - **value**: SWC text\n   - field 2:\n    - **name**: numberOfBins\n    - **type**: number\n    - **value**: [see L-Measure help](http://cng.gmu.edu/Lm/help/index.htm)\n  - field 3:\n    - **name**: typeOfBins\n    - **type**: text\n    - **value**: number|width [see L-Measure help](http://cng.gmu.edu/Lm/help/index.htm)\n  - field 3:\n    - **name**: query\n    - **type**: text\n    - **value**: The L-Measure functions (for instance -f0,0,0,10.0 ) [see L-Measure help](http://cng.gmu.edu/Lm/help/index.htm)\n- **Response**:\nDelivers JSON File with the L-Measure result. \n\n##### **Path**: /api/analyze\n- **Method**: GET\n- **Media type**: application/x-www-form-urlencoded\n- **Input fields**: \n  - field 1:\n    - **name**: url\n    - **type**: text\n    - **value**: link to the SWC URL\n   - field 2:\n    - **name**: numberOfBins\n    - **type**: number\n    - **value**: [see L-Measure help](http://cng.gmu.edu/Lm/help/index.htm)\n  - field 3:\n    - **name**: typeOfBins\n    - **type**: text\n    - **value**: number|width [see L-Measure help](http://cng.gmu.edu/Lm/help/index.htm)\n  - field 3:\n    - **name**: query\n    - **type**: text\n    - **value**: The L-Measure functions (for instance -f0,0,0,10.0 ) [see L-Measure help](http://cng.gmu.edu/Lm/help/index.htm)\n- **Response**:\nDelivers JSON File with the L-Measure result. \n",
+                "type": "Text_excerpt",
+                "original_header": "**Path**: /api/analyze",
+                "parent_header": [
+                    "swc-service",
+                    "Usage"
+                ]
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/swc-service/master/README.md"
+        },
+        {
+            "result": {
+                "value": "- **Media type**: multipart/form-data\n- **Input fields**: \n  - field:\n    - **name**: file1\n    - **type**: file\n    - **value**: locally selected SWC file\n- **Response**:\nreturns PNG screenshot of the rendered SWC file. \n \n##### **Path**: /api/thumb\n- **Method**: POST\n- **Media type**: application/x-www-form-urlencoded\n- **Input fields**: \n  - field:\n    - **name**: swc\n    - **type**: text/texarea\n    - **value**: SWC text\n- **Response**:\nreturns PNG screenshot of the rendered SWC text\n\n\n##### **Path**: /api/thumb\n- **Method**: GET\n- **Media type**: application/x-www-form-urlencoded\n- **Input fields**: \n  - field:\n    - **name**: url\n    - **type**: text\n    - **value**: link to the SWC text \n- **Response**:\nreturns PNG screenshot of the renederd SWC text referenced by the URL. \n\n\nYou can check `http://localhost:8080/swc/api/explain` page for swc-service usage examples.   \n",
+                "type": "Text_excerpt",
+                "original_header": "**Path**: /api/thumb",
+                "parent_header": [
+                    "swc-service",
+                    "Usage"
+                ]
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/swc-service/master/README.md"
+        }
+    ],
+    "full_title": [
+        {
+            "result": {
+                "type": "String",
+                "value": "swc-service"
+            },
+            "confidence": 1,
+            "technique": "regular_expression",
+            "source": "https://raw.githubusercontent.com/MPDL/swc-service/master/README.md"
+        }
+    ],
+    "documentation": [
+        {
+            "result": {
+                "type": "Url",
+                "value": "https://github.com/MPDL/swc-service/wiki",
+                "format": "wiki"
+            },
+            "confidence": 1,
+            "technique": "regular_expression",
+            "source": "https://raw.githubusercontent.com/MPDL/swc-service/master/README.md"
+        }
+    ]
+}

@@ -1,0 +1,512 @@
+{
+    "somef_provenance": {
+        "somef_version": "0.9.4",
+        "somef_schema_version": "1.0.0",
+        "date": "2023-11-28 15:29:08"
+    },
+    "code_repository": [
+        {
+            "result": {
+                "value": "https://github.com/MPDL/LabCam",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "owner": [
+        {
+            "result": {
+                "value": "MPDL",
+                "type": "Organization"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "date_created": [
+        {
+            "result": {
+                "value": "2018-07-23T10:57:01Z",
+                "type": "Date"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "date_updated": [
+        {
+            "result": {
+                "value": "2020-08-10T15:34:00Z",
+                "type": "Date"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "license": [
+        {
+            "result": {
+                "value": "https://api.github.com/licenses/mit",
+                "type": "License",
+                "name": "MIT License",
+                "url": "https://api.github.com/licenses/mit",
+                "spdx_id": "MIT"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "MIT License\n\nCopyright (c) 2018 Max Planck Digital Library\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+                "type": "File_dump"
+            },
+            "confidence": 1,
+            "technique": "file_exploration",
+            "source": "https://raw.githubusercontent.com/MPDL/LabCam/master/LICENSE"
+        }
+    ],
+    "name": [
+        {
+            "result": {
+                "value": "LabCam",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "full_name": [
+        {
+            "result": {
+                "value": "MPDL/LabCam",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "issue_tracker": [
+        {
+            "result": {
+                "value": "https://api.github.com/repos/MPDL/LabCam/issues",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "forks_url": [
+        {
+            "result": {
+                "value": "https://api.github.com/repos/MPDL/LabCam/forks",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "stargazers_count": [
+        {
+            "result": {
+                "value": 0,
+                "type": "Number"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "keywords": [
+        {
+            "result": {
+                "value": "",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "forks_count": [
+        {
+            "result": {
+                "value": 1,
+                "type": "Number"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "download_url": [
+        {
+            "result": {
+                "value": "https://github.com/MPDL/LabCam/releases",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "programming_languages": [
+        {
+            "result": {
+                "value": "JavaScript",
+                "name": "JavaScript",
+                "type": "Programming_language",
+                "size": 126101
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "Java",
+                "name": "Java",
+                "type": "Programming_language",
+                "size": 55334
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "Objective-C",
+                "name": "Objective-C",
+                "type": "Programming_language",
+                "size": 37587
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "C#",
+                "name": "C#",
+                "type": "Programming_language",
+                "size": 3643
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "Python",
+                "name": "Python",
+                "type": "Programming_language",
+                "size": 1738
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "Ruby",
+                "name": "Ruby",
+                "type": "Programming_language",
+                "size": 1680
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "readme_url": [
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/LabCam/master/README.md",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        }
+    ],
+    "usage": [
+        {
+            "result": {
+                "value": "Runs your app in development mode.\n\nOpen it in the [Expo app](https://expo.io) on your phone to view it. It will reload if you save edits to your files, and you will see build errors and logs in the terminal.\n\nSometimes you may need to reset or clear the React Native packager's cache. To do so, you can pass the `--reset-cache` flag to the start script:\n\n```\nnpm start --reset-cache\n# or\nyarn start --reset-cache\n```\n",
+                "type": "Text_excerpt",
+                "original_header": "`npm start`",
+                "parent_header": [
+                    "Available Scripts"
+                ]
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/LabCam/master/README.md"
+        },
+        {
+            "result": {
+                "value": "Runs the [jest](https://github.com/facebook/jest) test runner on your tests.\n",
+                "type": "Text_excerpt",
+                "original_header": "`npm test`",
+                "parent_header": [
+                    "Available Scripts",
+                    "`npm start`"
+                ]
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/LabCam/master/README.md"
+        },
+        {
+            "result": {
+                "value": "1. Make sure that you can run adb from your terminal.\n2. Open Genymotion and navigate to `Settings -> ADB`. Select \u201cUse custom Android SDK tools\u201d and update with your [Android SDK directory](https://stackoverflow.com/questions/25176594/android-sdk-location).\n",
+                "type": "Text_excerpt",
+                "original_header": "Using Android Studio's `adb`",
+                "parent_header": [
+                    "Available Scripts",
+                    "`npm start`",
+                    "`npm run android`"
+                ]
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/LabCam/master/README.md"
+        },
+        {
+            "result": {
+                "value": "1. Find Genymotion\u2019s copy of adb. On macOS for example, this is normally `/Applications/Genymotion.app/Contents/MacOS/tools/`.\n2. Add the Genymotion tools directory to your path (instructions for [Mac](http://osxdaily.com/2014/08/14/add-new-path-to-path-command-line/), [Linux](http://www.computerhope.com/issues/ch001647.htm), and [Windows](https://www.howtogeek.com/118594/how-to-edit-your-system-path-for-easy-command-line-access/)).\n3. Make sure that you can run adb from your terminal.\n",
+                "type": "Text_excerpt",
+                "original_header": "Using Genymotion's `adb`",
+                "parent_header": [
+                    "Available Scripts",
+                    "`npm start`",
+                    "`npm run android`"
+                ]
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/LabCam/master/README.md"
+        },
+        {
+            "result": {
+                "value": "If you have made use of Expo APIs while working on your project, then those API calls will stop working if you eject to a regular React Native project. If you want to continue using those APIs, you can eject to \"React Native + ExpoKit\" which will still allow you to build your own native code and continue using the Expo APIs. See the [ejecting guide](https://github.com/react-community/create-react-native-app/blob/master/EJECTING.md) for more details about this option.\n",
+                "type": "Text_excerpt",
+                "original_header": "Should I Use ExpoKit?",
+                "parent_header": [
+                    "Sharing and Deployment",
+                    "Ejecting from Create React Native App"
+                ]
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/LabCam/master/README.md"
+        }
+    ],
+    "run": [
+        {
+            "result": {
+                "value": "Like `npm start`, but also attempts to open your app in the iOS Simulator if you're on a Mac and have it installed.\n",
+                "type": "Text_excerpt",
+                "original_header": "`npm run ios`",
+                "parent_header": [
+                    "Available Scripts",
+                    "`npm start`"
+                ]
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/LabCam/master/README.md"
+        },
+        {
+            "result": {
+                "value": "Like `npm start`, but also attempts to open your app on a connected Android device or emulator. Requires an installation of Android build tools (see [React Native docs](https://facebook.github.io/react-native/docs/getting-started.html) for detailed setup). We also recommend installing Genymotion as your Android emulator. Once you've finished setting up the native build environment, there are two options for making the right copy of `adb` available to Create React Native App:\n",
+                "type": "Text_excerpt",
+                "original_header": "`npm run android`",
+                "parent_header": [
+                    "Available Scripts",
+                    "`npm start`"
+                ]
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/LabCam/master/README.md"
+        },
+        {
+            "result": {
+                "value": "1. Make sure that you can run adb from your terminal.\n2. Open Genymotion and navigate to `Settings -> ADB`. Select \u201cUse custom Android SDK tools\u201d and update with your [Android SDK directory](https://stackoverflow.com/questions/25176594/android-sdk-location).\n",
+                "type": "Text_excerpt",
+                "original_header": "Using Android Studio's `adb`",
+                "parent_header": [
+                    "Available Scripts",
+                    "`npm start`",
+                    "`npm run android`"
+                ]
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/LabCam/master/README.md"
+        },
+        {
+            "result": {
+                "value": "1. Find Genymotion\u2019s copy of adb. On macOS for example, this is normally `/Applications/Genymotion.app/Contents/MacOS/tools/`.\n2. Add the Genymotion tools directory to your path (instructions for [Mac](http://osxdaily.com/2014/08/14/add-new-path-to-path-command-line/), [Linux](http://www.computerhope.com/issues/ch001647.htm), and [Windows](https://www.howtogeek.com/118594/how-to-edit-your-system-path-for-easy-command-line-access/)).\n3. Make sure that you can run adb from your terminal.\n",
+                "type": "Text_excerpt",
+                "original_header": "Using Genymotion's `adb`",
+                "parent_header": [
+                    "Available Scripts",
+                    "`npm start`",
+                    "`npm run android`"
+                ]
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/LabCam/master/README.md"
+        },
+        {
+            "result": {
+                "value": "This will start the process of \"ejecting\" from Create React Native App's build scripts. You'll be asked a couple of questions about how you'd like to build your project.\n\n**Warning:** Running eject is a permanent action (aside from whatever version control system you use). An ejected app will require you to have an [Xcode and/or Android Studio environment](https://facebook.github.io/react-native/docs/getting-started.html) set up.\n",
+                "type": "Text_excerpt",
+                "original_header": "`npm run eject`",
+                "parent_header": [
+                    "Available Scripts",
+                    "`npm start`"
+                ]
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/LabCam/master/README.md"
+        },
+        {
+            "result": {
+                "value": "This project is set up to use [jest](https://facebook.github.io/jest/) for tests. You can configure whatever testing strategy you like, but jest works out of the box. Create test files in directories called `__tests__` or with the `.test` extension to have the files loaded by jest. See the [the template project](https://github.com/react-community/create-react-native-app/blob/master/react-native-scripts/template/App.test.js) for an example test. The [jest documentation](https://facebook.github.io/jest/docs/en/getting-started.html) is also a wonderful resource, as is the [React Native testing tutorial](https://facebook.github.io/jest/docs/en/tutorial-react-native.html).\n",
+                "type": "Text_excerpt",
+                "original_header": "Writing and Running Tests"
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/LabCam/master/README.md"
+        }
+    ],
+    "description": [
+        {
+            "result": {
+                "type": "Text_excerpt",
+                "value": "Upgrading to a new version of React Native requires updating the `react-native`, `react`, and `expo` package versions, and setting the correct `sdkVersion` in `app.json`. See the [versioning guide](https://github.com/react-community/create-react-native-app/blob/master/VERSIONS.md) for up-to-date information about package version compatibility.\n \n",
+                "original_header": "Updating to New Releases"
+            },
+            "confidence": 0.9074020602044377,
+            "technique": "supervised_classification",
+            "source": "https://raw.githubusercontent.com/MPDL/LabCam/master/README.md"
+        },
+        {
+            "result": {
+                "type": "Text_excerpt",
+                "value": "When starting your project, you'll see something like this for your project URL:\n```\nexp://192.168.0.2:19000\n```\n \n",
+                "original_header": "Configuring Packager IP Address"
+            },
+            "confidence": 0.9723971182744946,
+            "technique": "supervised_classification",
+            "source": "https://raw.githubusercontent.com/MPDL/LabCam/master/README.md"
+        },
+        {
+            "result": {
+                "type": "Text_excerpt",
+                "value": "To add a local dependency to the correct Flow version to a Create React Native App project, follow these steps: \nTo learn more about Flow, check out [its documentation](https://flow.org/).\n \n",
+                "original_header": "Adding Flow"
+            },
+            "confidence": 0.9415373383313974,
+            "technique": "supervised_classification",
+            "source": "https://raw.githubusercontent.com/MPDL/LabCam/master/README.md"
+        },
+        {
+            "result": {
+                "type": "Text_excerpt",
+                "value": "Create React Native App does a lot of work to make app setup and development simple and straightforward, but it's very difficult to do the same for deploying to Apple's App Store or Google's Play Store without relying on a hosted service.\n \n",
+                "original_header": "Sharing and Deployment"
+            },
+            "confidence": 0.9329663998523148,
+            "technique": "supervised_classification",
+            "source": "https://raw.githubusercontent.com/MPDL/LabCam/master/README.md"
+        },
+        {
+            "result": {
+                "type": "Text_excerpt",
+                "value": "If you're unable to load your app on your phone due to a network timeout or a refused connection, a good first step is to verify that your phone and computer are on the same network and that they can reach each other. Create React Native App needs access to ports 19000 and 19001 so ensure that your network and firewall settings allow access from your device to your computer on both of these ports. \n",
+                "original_header": "Networking"
+            },
+            "confidence": 0.9283248798538325,
+            "technique": "supervised_classification",
+            "source": "https://raw.githubusercontent.com/MPDL/LabCam/master/README.md"
+        },
+        {
+            "result": {
+                "type": "Text_excerpt",
+                "value": "If you're not able to scan the QR code, make sure your phone's camera is focusing correctly, and also make sure that the contrast on the two colors in your terminal is high enough. For example, WebStorm's default themes may [not have enough contrast](https://github.com/react-community/create-react-native-app/issues/49) for terminal QR codes to be scannable with the system barcode scanners that the Expo app uses. \n",
+                "original_header": "QR Code does not scan"
+            },
+            "confidence": 0.9439428077110384,
+            "technique": "supervised_classification",
+            "source": "https://raw.githubusercontent.com/MPDL/LabCam/master/README.md"
+        },
+        {
+            "result": {
+                "type": "Text_excerpt",
+                "value": "This project was bootstrapped with . \n"
+            },
+            "confidence": 0.9597119909838894,
+            "technique": "supervised_classification",
+            "source": "https://raw.githubusercontent.com/MPDL/LabCam/master/README.md"
+        }
+    ],
+    "installation": [
+        {
+            "result": {
+                "type": "Text_excerpt",
+                "value": "If Yarn was installed when the project was initialized, then dependencies will have been installed via Yarn, and you should probably use it to run these commands as well. Unlike dependency installation, command running syntax is identical for Yarn and NPM at the time of this writing.\n \n",
+                "original_header": "Available Scripts"
+            },
+            "confidence": 0.9128684273857339,
+            "technique": "supervised_classification",
+            "source": "https://raw.githubusercontent.com/MPDL/LabCam/master/README.md"
+        },
+        {
+            "result": {
+                "type": "Text_excerpt",
+                "value": "In some cases, this is less than ideal. This might be the case if you need to run your project inside of a virtual machine and you have to access the packager via a different IP address than the one which prints by default. In order to override the IP address or hostname that is detected by Create React Native App, you can specify your own hostname via the `REACT_NATIVE_PACKAGER_HOSTNAME` environment variable: \nWindows:\n```\nset REACT_NATIVE_PACKAGER_HOSTNAME='my-custom-ip-address-or-hostname'\nnpm start\n``` \n",
+                "original_header": "Configuring Packager IP Address"
+            },
+            "confidence": 0.9250674944531776,
+            "technique": "supervised_classification",
+            "source": "https://raw.githubusercontent.com/MPDL/LabCam/master/README.md"
+        },
+        {
+            "result": {
+                "type": "Text_excerpt",
+                "value": "1. Find the Flow `[version]` at the bottom of the included [.flowconfig](.flowconfig)\n2. Run `npm install --save-dev flow-bin@x.y.z` (or `yarn add --dev flow-bin@x.y.z`), where `x.y.z` is the .flowconfig version number.\n3. Add `\"flow\": \"flow\"` to the `scripts` section of your `package.json`.\n4. Add `// @flow` to any files you want to type check (for example, to `App.js`). \nNow you can run `npm run flow` (or `yarn flow`) to check the files for type errors.\nYou can optionally use a [plugin for your IDE or editor](https://flow.org/en/docs/editors/) for a better integrated experience. \n",
+                "original_header": "Adding Flow"
+            },
+            "confidence": 0.9305241156141012,
+            "technique": "supervised_classification",
+            "source": "https://raw.githubusercontent.com/MPDL/LabCam/master/README.md"
+        },
+        {
+            "result": {
+                "type": "Text_excerpt",
+                "value": "If you're on a Mac, there are a few errors that users sometimes see when attempting to `npm run ios`: \n",
+                "original_header": "iOS Simulator won't open"
+            },
+            "confidence": 0.9336513761604609,
+            "technique": "supervised_classification",
+            "source": "https://raw.githubusercontent.com/MPDL/LabCam/master/README.md"
+        },
+        {
+            "result": {
+                "type": "Text_excerpt",
+                "value": "If this causes problems for you, you may want to try changing your terminal's color theme to have more contrast, or running Create React Native App from a different terminal. You can also manually enter the URL printed by the packager script in the Expo app's search bar to load it manually.\n \n",
+                "original_header": "QR Code does not scan"
+            },
+            "confidence": 0.9216234998664672,
+            "technique": "supervised_classification",
+            "source": "https://raw.githubusercontent.com/MPDL/LabCam/master/README.md"
+        }
+    ],
+    "full_title": [
+        {
+            "result": {
+                "type": "String",
+                "value": ""
+            },
+            "confidence": 1,
+            "technique": "regular_expression",
+            "source": "https://raw.githubusercontent.com/MPDL/LabCam/master/README.md"
+        }
+    ]
+}

@@ -1,0 +1,1322 @@
+{
+    "somef_provenance": {
+        "somef_version": "0.9.4",
+        "somef_schema_version": "1.0.0",
+        "date": "2023-11-28 15:30:48"
+    },
+    "code_repository": [
+        {
+            "result": {
+                "value": "https://github.com/MPDL/dataverse",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "owner": [
+        {
+            "result": {
+                "value": "MPDL",
+                "type": "Organization"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "date_created": [
+        {
+            "result": {
+                "value": "2021-07-06T07:46:40Z",
+                "type": "Date"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "date_updated": [
+        {
+            "result": {
+                "value": "2021-12-17T15:53:30Z",
+                "type": "Date"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "license": [
+        {
+            "result": {
+                "value": null,
+                "type": "License",
+                "name": "Other",
+                "url": null,
+                "spdx_id": "NOASSERTION"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "The Dataverse software is licensed under the Apache License, Version 2.0 (the \"License\"); you may not use this software except in compliance with the License.\n\nApache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n   1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n\n      \"Licensor\" shall mean the copyright owner or entity authorized by\n      the copyright owner that is granting the License.\n\n      \"Legal Entity\" shall mean the union of the acting entity and all\n      other entities that control, are controlled by, or are under common\n      control with that entity. For the purposes of this definition,\n      \"control\" means (i) the power, direct or indirect, to cause the\n      direction or management of such entity, whether by contract or\n      otherwise, or (ii) ownership of fifty percent (50%) or more of the\n      outstanding shares, or (iii) beneficial ownership of such entity.\n\n      \"You\" (or \"Your\") shall mean an individual or Legal Entity\n      exercising permissions granted by this License.\n\n      \"Source\" form shall mean the preferred form for making modifications,\n      including but not limited to software source code, documentation\n      source, and configuration files.\n\n      \"Object\" form shall mean any form resulting from mechanical\n      transformation or translation of a Source form, including but\n      not limited to compiled object code, generated documentation,\n      and conversions to other media types.\n\n      \"Work\" shall mean the work of authorship, whether in Source or\n      Object form, made available under the License, as indicated by a\n      copyright notice that is included in or attached to the work\n      (an example is provided in the Appendix below).\n\n      \"Derivative Works\" shall mean any work, whether in Source or Object\n      form, that is based on (or derived from) the Work and for which the\n      editorial revisions, annotations, elaborations, or other modifications\n      represent, as a whole, an original work of authorship. For the purposes\n      of this License, Derivative Works shall not include works that remain\n      separable from, or merely link (or bind by name) to the interfaces of,\n      the Work and Derivative Works thereof.\n\n      \"Contribution\" shall mean any work of authorship, including\n      the original version of the Work and any modifications or additions\n      to that Work or Derivative Works thereof, that is intentionally\n      submitted to Licensor for inclusion in the Work by the copyright owner\n      or by an individual or Legal Entity authorized to submit on behalf of\n      the copyright owner. For the purposes of this definition, \"submitted\"\n      means any form of electronic, verbal, or written communication sent\n      to the Licensor or its representatives, including but not limited to\n      communication on electronic mailing lists, source code control systems,\n      and issue tracking systems that are managed by, or on behalf of, the\n      Licensor for the purpose of discussing and improving the Work, but\n      excluding communication that is conspicuously marked or otherwise\n      designated in writing by the copyright owner as \"Not a Contribution.\"\n\n      \"Contributor\" shall mean Licensor and any individual or Legal Entity\n      on behalf of whom a Contribution has been received by Licensor and\n      subsequently incorporated within the Work.\n\n   2. Grant of Copyright License. Subject to the terms and conditions of\n      this License, each Contributor hereby grants to You a perpetual,\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n      copyright license to reproduce, prepare Derivative Works of,\n      publicly display, publicly perform, sublicense, and distribute the\n      Work and such Derivative Works in Source or Object form.\n\n   3. Grant of Patent License. Subject to the terms and conditions of\n      this License, each Contributor hereby grants to You a perpetual,\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n      (except as stated in this section) patent license to make, have made,\n      use, offer to sell, sell, import, and otherwise transfer the Work,\n      where such license applies only to those patent claims licensable\n      by such Contributor that are necessarily infringed by their\n      Contribution(s) alone or by combination of their Contribution(s)\n      with the Work to which such Contribution(s) was submitted. If You\n      institute patent litigation against any entity (including a\n      cross-claim or counterclaim in a lawsuit) alleging that the Work\n      or a Contribution incorporated within the Work constitutes direct\n      or contributory patent infringement, then any patent licenses\n      granted to You under this License for that Work shall terminate\n      as of the date such litigation is filed.\n\n   4. Redistribution. You may reproduce and distribute copies of the\n      Work or Derivative Works thereof in any medium, with or without\n      modifications, and in Source or Object form, provided that You\n      meet the following conditions:\n\n      (a) You must give any other recipients of the Work or\n          Derivative Works a copy of this License; and\n\n      (b) You must cause any modified files to carry prominent notices\n          stating that You changed the files; and\n\n      (c) You must retain, in the Source form of any Derivative Works\n          that You distribute, all copyright, patent, trademark, and\n          attribution notices from the Source form of the Work,\n          excluding those notices that do not pertain to any part of\n          the Derivative Works; and\n\n      (d) If the Work includes a \"NOTICE\" text file as part of its\n          distribution, then any Derivative Works that You distribute must\n          include a readable copy of the attribution notices contained\n          within such NOTICE file, excluding those notices that do not\n          pertain to any part of the Derivative Works, in at least one\n          of the following places: within a NOTICE text file distributed\n          as part of the Derivative Works; within the Source form or\n          documentation, if provided along with the Derivative Works; or,\n          within a display generated by the Derivative Works, if and\n          wherever such third-party notices normally appear. The contents\n          of the NOTICE file are for informational purposes only and\n          do not modify the License. You may add Your own attribution\n          notices within Derivative Works that You distribute, alongside\n          or as an addendum to the NOTICE text from the Work, provided\n          that such additional attribution notices cannot be construed\n          as modifying the License.\n\n      You may add Your own copyright statement to Your modifications and\n      may provide additional or different license terms and conditions\n      for use, reproduction, or distribution of Your modifications, or\n      for any such Derivative Works as a whole, provided Your use,\n      reproduction, and distribution of the Work otherwise complies with\n      the conditions stated in this License.\n\n   5. Submission of Contributions. Unless You explicitly state otherwise,\n      any Contribution intentionally submitted for inclusion in the Work\n      by You to the Licensor shall be under the terms and conditions of\n      this License, without any additional terms or conditions.\n      Notwithstanding the above, nothing herein shall supersede or modify\n      the terms of any separate license agreement you may have executed\n      with Licensor regarding such Contributions.\n\n   6. Trademarks. This License does not grant permission to use the trade\n      names, trademarks, service marks, or product names of the Licensor,\n      except as required for reasonable and customary use in describing the\n      origin of the Work and reproducing the content of the NOTICE file.\n\n   7. Disclaimer of Warranty. Unless required by applicable law or\n      agreed to in writing, Licensor provides the Work (and each\n      Contributor provides its Contributions) on an \"AS IS\" BASIS,\n      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or\n      implied, including, without limitation, any warranties or conditions\n      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A\n      PARTICULAR PURPOSE. You are solely responsible for determining the\n      appropriateness of using or redistributing the Work and assume any\n      risks associated with Your exercise of permissions under this License.\n\n   8. Limitation of Liability. In no event and under no legal theory,\n      whether in tort (including negligence), contract, or otherwise,\n      unless required by applicable law (such as deliberate and grossly\n      negligent acts) or agreed to in writing, shall any Contributor be\n      liable to You for damages, including any direct, indirect, special,\n      incidental, or consequential damages of any character arising as a\n      result of this License or out of the use or inability to use the\n      Work (including but not limited to damages for loss of goodwill,\n      work stoppage, computer failure or malfunction, or any and all\n      other commercial damages or losses), even if such Contributor\n      has been advised of the possibility of such damages.\n\n   9. Accepting Warranty or Additional Liability. While redistributing\n      the Work or Derivative Works thereof, You may choose to offer,\n      and charge a fee for, acceptance of support, warranty, indemnity,\n      or other liability obligations and/or rights consistent with this\n      License. However, in accepting such obligations, You may act only\n      on Your own behalf and on Your sole responsibility, not on behalf\n      of any other Contributor, and only if You agree to indemnify,\n      defend, and hold each Contributor harmless for any liability\n      incurred by, or claims asserted against, such Contributor by reason\n      of your accepting any such warranty or additional liability.\n\n   END OF TERMS AND CONDITIONS\n\n   Copyright 2014 Dataverse Project\n\n   Licensed under the Apache License, Version 2.0 (the \"License\");\n   you may not use this file except in compliance with the License.\n   You may obtain a copy of the License at\n\n       http://www.apache.org/licenses/LICENSE-2.0\n\n   Unless required by applicable law or agreed to in writing, software\n   distributed under the License is distributed on an \"AS IS\" BASIS,\n   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n   See the License for the specific language governing permissions and\n   limitations under the License.\n",
+                "type": "File_dump"
+            },
+            "confidence": 1,
+            "technique": "file_exploration",
+            "source": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/LICENSE.md"
+        }
+    ],
+    "description": [
+        {
+            "result": {
+                "value": "Open source research data repository software",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "type": "Text_excerpt",
+                "value": "Dataverse is an [open source][] software platform for sharing, finding, citing, and preserving research data (developed by the [Data Science and Products team](http://www.iq.harvard.edu/people/people/data-science-products) at the [Institute for Quantitative Social Science](http://iq.harvard.edu/) and the [Dataverse community][]). \n[dataverse.org][] is our home on the web and shows a map of Dataverse installations around the world, a list of [features][], [integrations][] that have been made possible through [REST APIs][], our development [roadmap][], and more. \nTo discuss Dataverse with the community, please join our [mailing list][], participate in a [community call][], chat with us at [chat.dataverse.org][], or attend our annual [Dataverse Community Meeting][]. \nDataverse is a trademark of President and Fellows of Harvard College and is registered in the United States. \n",
+                "original_header": "Dataverse&#174;"
+            },
+            "confidence": 0.9720886125178729,
+            "technique": "supervised_classification",
+            "source": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/README.md"
+        }
+    ],
+    "name": [
+        {
+            "result": {
+                "value": "dataverse",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "full_name": [
+        {
+            "result": {
+                "value": "MPDL/dataverse",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "issue_tracker": [
+        {
+            "result": {
+                "value": "https://api.github.com/repos/MPDL/dataverse/issues",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "forks_url": [
+        {
+            "result": {
+                "value": "https://api.github.com/repos/MPDL/dataverse/forks",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "stargazers_count": [
+        {
+            "result": {
+                "value": 1,
+                "type": "Number"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "keywords": [
+        {
+            "result": {
+                "value": "",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "forks_count": [
+        {
+            "result": {
+                "value": 0,
+                "type": "Number"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "download_url": [
+        {
+            "result": {
+                "value": "https://github.com/MPDL/dataverse/releases",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "programming_languages": [
+        {
+            "result": {
+                "value": "Java",
+                "name": "Java",
+                "type": "Programming_language",
+                "size": 10925635
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "HTML",
+                "name": "HTML",
+                "type": "Programming_language",
+                "size": 1400098
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "JavaScript",
+                "name": "JavaScript",
+                "type": "Programming_language",
+                "size": 505031
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "Shell",
+                "name": "Shell",
+                "type": "Programming_language",
+                "size": 205890
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "Python",
+                "name": "Python",
+                "type": "Programming_language",
+                "size": 110078
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "XSLT",
+                "name": "XSLT",
+                "type": "Programming_language",
+                "size": 82408
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "Perl",
+                "name": "Perl",
+                "type": "Programming_language",
+                "size": 75586
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "CSS",
+                "name": "CSS",
+                "type": "Programming_language",
+                "size": 69490
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "R",
+                "name": "R",
+                "type": "Programming_language",
+                "size": 38280
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "Dockerfile",
+                "name": "Dockerfile",
+                "type": "Programming_language",
+                "size": 22919
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "Jupyter Notebook",
+                "name": "Jupyter Notebook",
+                "type": "Programming_language",
+                "size": 6789
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "Makefile",
+                "name": "Makefile",
+                "type": "Programming_language",
+                "size": 4678
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "PLpgSQL",
+                "name": "PLpgSQL",
+                "type": "Programming_language",
+                "size": 2125
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "Ruby",
+                "name": "Ruby",
+                "type": "Programming_language",
+                "size": 1670
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "releases": [
+        {
+            "result": {
+                "type": "Release",
+                "value": "https://api.github.com/repos/MPDL/dataverse/releases/123827591",
+                "tag": "v5.14-mpdl-3",
+                "name": "Release v5.14-mpdl-3",
+                "author": {
+                    "name": "github-actions[bot]",
+                    "type": "Bot"
+                },
+                "tarball_url": "https://api.github.com/repos/MPDL/dataverse/tarball/v5.14-mpdl-3",
+                "zipball_url": "https://api.github.com/repos/MPDL/dataverse/zipball/v5.14-mpdl-3",
+                "html_url": "https://github.com/MPDL/dataverse/releases/tag/v5.14-mpdl-3",
+                "url": "https://api.github.com/repos/MPDL/dataverse/releases/123827591",
+                "release_id": 123827591,
+                "date_created": "2023-10-05T09:36:17Z",
+                "date_published": "2023-10-05T09:42:36Z"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "type": "Release",
+                "value": "https://api.github.com/repos/MPDL/dataverse/releases/122763223",
+                "tag": "v5.14-mpdl-2",
+                "name": "Release v5.14-mpdl-2",
+                "author": {
+                    "name": "github-actions[bot]",
+                    "type": "Bot"
+                },
+                "tarball_url": "https://api.github.com/repos/MPDL/dataverse/tarball/v5.14-mpdl-2",
+                "zipball_url": "https://api.github.com/repos/MPDL/dataverse/zipball/v5.14-mpdl-2",
+                "html_url": "https://github.com/MPDL/dataverse/releases/tag/v5.14-mpdl-2",
+                "url": "https://api.github.com/repos/MPDL/dataverse/releases/122763223",
+                "release_id": 122763223,
+                "date_created": "2023-09-27T07:17:32Z",
+                "date_published": "2023-09-27T11:18:26Z"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "type": "Release",
+                "value": "https://api.github.com/repos/MPDL/dataverse/releases/119391695",
+                "tag": "v5.14-mpdl-1",
+                "name": "Release v5.14-mpdl-1",
+                "author": {
+                    "name": "github-actions[bot]",
+                    "type": "Bot"
+                },
+                "tarball_url": "https://api.github.com/repos/MPDL/dataverse/tarball/v5.14-mpdl-1",
+                "zipball_url": "https://api.github.com/repos/MPDL/dataverse/zipball/v5.14-mpdl-1",
+                "html_url": "https://github.com/MPDL/dataverse/releases/tag/v5.14-mpdl-1",
+                "url": "https://api.github.com/repos/MPDL/dataverse/releases/119391695",
+                "release_id": 119391695,
+                "date_created": "2023-08-09T11:10:05Z",
+                "date_published": "2023-08-31T07:32:45Z"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "type": "Release",
+                "value": "https://api.github.com/repos/MPDL/dataverse/releases/96306925",
+                "tag": "v5.13-mpdl-1",
+                "name": "v5.13-mpdl-1",
+                "author": {
+                    "name": "haarli",
+                    "type": "User"
+                },
+                "description": "See https://github.com/MPDL/dataverse/projects/3\r\nand https://github.com/IQSS/dataverse/releases/tag/v5.13\r\n\r\n",
+                "tarball_url": "https://api.github.com/repos/MPDL/dataverse/tarball/v5.13-mpdl-1",
+                "zipball_url": "https://api.github.com/repos/MPDL/dataverse/zipball/v5.13-mpdl-1",
+                "html_url": "https://github.com/MPDL/dataverse/releases/tag/v5.13-mpdl-1",
+                "url": "https://api.github.com/repos/MPDL/dataverse/releases/96306925",
+                "release_id": 96306925,
+                "date_created": "2023-02-20T13:50:53Z",
+                "date_published": "2023-03-21T08:37:00Z"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "type": "Release",
+                "value": "https://api.github.com/repos/MPDL/dataverse/releases/84100154",
+                "tag": "v5.12.1-mpdl-2",
+                "name": "v5.12.1-mpdl-2",
+                "author": {
+                    "name": "haarli",
+                    "type": "User"
+                },
+                "description": "Fix for #49 \r\nFix for IQSS/#9183",
+                "tarball_url": "https://api.github.com/repos/MPDL/dataverse/tarball/v5.12.1-mpdl-2",
+                "zipball_url": "https://api.github.com/repos/MPDL/dataverse/zipball/v5.12.1-mpdl-2",
+                "html_url": "https://github.com/MPDL/dataverse/releases/tag/v5.12.1-mpdl-2",
+                "url": "https://api.github.com/repos/MPDL/dataverse/releases/84100154",
+                "release_id": 84100154,
+                "date_created": "2022-11-23T15:10:02Z",
+                "date_published": "2022-11-24T13:31:46Z"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "type": "Release",
+                "value": "https://api.github.com/repos/MPDL/dataverse/releases/82285868",
+                "tag": "v5.12.1-mpdl-1",
+                "name": "v5.12.1-mpdl-1",
+                "author": {
+                    "name": "haarli",
+                    "type": "User"
+                },
+                "description": "Contains all Changes from main dataverse release v5.12.1, see https://github.com/IQSS/dataverse/releases/tag/v5.12.1",
+                "tarball_url": "https://api.github.com/repos/MPDL/dataverse/tarball/v5.12.1-mpdl-1",
+                "zipball_url": "https://api.github.com/repos/MPDL/dataverse/zipball/v5.12.1-mpdl-1",
+                "html_url": "https://github.com/MPDL/dataverse/releases/tag/v5.12.1-mpdl-1",
+                "url": "https://api.github.com/repos/MPDL/dataverse/releases/82285868",
+                "release_id": 82285868,
+                "date_created": "2022-11-07T15:40:30Z",
+                "date_published": "2022-11-07T15:52:40Z"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "type": "Release",
+                "value": "https://api.github.com/repos/MPDL/dataverse/releases/81172592",
+                "tag": "v5.12-mpdl-1",
+                "name": "v5.12-mpdl-1",
+                "author": {
+                    "name": "haarli",
+                    "type": "User"
+                },
+                "description": "Contains all Changes from main dataverse release v5.12, see https://github.com/IQSS/dataverse/releases/tag/v5.12\r\n\r\nAdditionally, changes from https://github.com/MPDL/dataverse/projects/2.\r\n\r\nRequirements:\r\n\r\n* Update Payara server to version 5.2022.3\r\n  * If errors occur, delete old h2 database files from glassfish/domains/domain1/lib/databases \r\n* Update Solr to version 8.11.2\r\n  * replace solrconfig.xml in collection1/conf with new solrconfig.xml from conf/solr/8.11.1",
+                "tarball_url": "https://api.github.com/repos/MPDL/dataverse/tarball/v5.12-mpdl-1",
+                "zipball_url": "https://api.github.com/repos/MPDL/dataverse/zipball/v5.12-mpdl-1",
+                "html_url": "https://github.com/MPDL/dataverse/releases/tag/v5.12-mpdl-1",
+                "url": "https://api.github.com/repos/MPDL/dataverse/releases/81172592",
+                "release_id": 81172592,
+                "date_created": "2022-10-26T13:44:03Z",
+                "date_published": "2022-10-27T09:21:44Z"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "type": "Release",
+                "value": "https://api.github.com/repos/MPDL/dataverse/releases/73531888",
+                "tag": "v5.11.1-mpdl-1",
+                "name": "v5.11.1-mpdl-1",
+                "author": {
+                    "name": "haarli",
+                    "type": "User"
+                },
+                "description": "**Release Instructions:**\r\n\r\n- For Dataverse instructions, see: https://github.com/IQSS/dataverse/releases/tag/v5.11.1\r\n- Activate UTF8 encoding, see: https://github.com/MPDL/dataverse/issues/30#issuecomment-1212065162 for detailed steps \r\n- Enhance the organization name mapping, see: https://github.com/MPDL/dataverse/issues/41#issuecomment-1202351953 for Solr configuration ",
+                "tarball_url": "https://api.github.com/repos/MPDL/dataverse/tarball/v5.11.1-mpdl-1",
+                "zipball_url": "https://api.github.com/repos/MPDL/dataverse/zipball/v5.11.1-mpdl-1",
+                "html_url": "https://github.com/MPDL/dataverse/releases/tag/v5.11.1-mpdl-1",
+                "url": "https://api.github.com/repos/MPDL/dataverse/releases/73531888",
+                "release_id": 73531888,
+                "date_created": "2022-08-03T12:02:57Z",
+                "date_published": "2022-08-03T12:22:57Z"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "type": "Release",
+                "value": "https://api.github.com/repos/MPDL/dataverse/releases/73429627",
+                "tag": "v5.11-mpdl-1.1",
+                "name": "v5.11-mpdl-1.1",
+                "author": {
+                    "name": "haarli",
+                    "type": "User"
+                },
+                "description": "see https://github.com/IQSS/dataverse/releases/tag/v5.11\r\n\r\nsee https://github.com/MPDL/dataverse/issues/41#issuecomment-1202351953 for all steps to activate the organization name mapping in Solr",
+                "tarball_url": "https://api.github.com/repos/MPDL/dataverse/tarball/v5.11-mpdl-1.1",
+                "zipball_url": "https://api.github.com/repos/MPDL/dataverse/zipball/v5.11-mpdl-1.1",
+                "html_url": "https://github.com/MPDL/dataverse/releases/tag/v5.11-mpdl-1.1",
+                "url": "https://api.github.com/repos/MPDL/dataverse/releases/73429627",
+                "release_id": 73429627,
+                "date_created": "2022-08-02T11:34:40Z",
+                "date_published": "2022-08-02T12:01:49Z"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "type": "Release",
+                "value": "https://api.github.com/repos/MPDL/dataverse/releases/73070571",
+                "tag": "v5.11-mpdl-1",
+                "name": "v5.11-mpdl-1",
+                "author": {
+                    "name": "haarli",
+                    "type": "User"
+                },
+                "description": "see https://github.com/IQSS/dataverse/releases/tag/v5.11",
+                "tarball_url": "https://api.github.com/repos/MPDL/dataverse/tarball/v5.11-mpdl-1",
+                "zipball_url": "https://api.github.com/repos/MPDL/dataverse/zipball/v5.11-mpdl-1",
+                "html_url": "https://github.com/MPDL/dataverse/releases/tag/v5.11-mpdl-1",
+                "url": "https://api.github.com/repos/MPDL/dataverse/releases/73070571",
+                "release_id": 73070571,
+                "date_created": "2022-07-14T05:40:04Z",
+                "date_published": "2022-07-28T14:51:06Z"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "type": "Release",
+                "value": "https://api.github.com/repos/MPDL/dataverse/releases/71254090",
+                "tag": "v5.10.1-mpdl-3",
+                "name": "v5.10.1-mpdl-3",
+                "author": {
+                    "name": "haarli",
+                    "type": "User"
+                },
+                "description": "Bugfix for NPE when deleting files",
+                "tarball_url": "https://api.github.com/repos/MPDL/dataverse/tarball/v5.10.1-mpdl-3",
+                "zipball_url": "https://api.github.com/repos/MPDL/dataverse/zipball/v5.10.1-mpdl-3",
+                "html_url": "https://github.com/MPDL/dataverse/releases/tag/v5.10.1-mpdl-3",
+                "url": "https://api.github.com/repos/MPDL/dataverse/releases/71254090",
+                "release_id": 71254090,
+                "date_created": "2022-07-05T08:37:04Z",
+                "date_published": "2022-07-05T08:44:06Z"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "type": "Release",
+                "value": "https://api.github.com/repos/MPDL/dataverse/releases/64105659",
+                "tag": "v5.10.1-mpdl-1",
+                "name": "v5.10.1-mpdl-1",
+                "author": {
+                    "name": "haarli",
+                    "type": "User"
+                },
+                "description": "**Release Instructions:**\r\n\r\n- Add the new mpdl stylesheet to Dataverse: Replace `mpdl-stylesheet.css` with the latest `mpdl-stylesheet.css` (https://github.com/MPDL/dataverse/commit/d037b5b0c82dff3d6ee76f13079639a2e8802197) in the appropriate folder on the server: `/srv/mpdl-dataverse/custom/css/mpdl-stylesheet.css`\r\n- Replace the static pages: `help.html`, `impressum.html`, `privacy.html` and `terms_of_use.html` with their latest version (https://github.com/MPDL/dataverse/commit/b9743e22be7a957bfb9cb885fea77e8f688a3590) in the appropriate folder on the server: `/srv/mpdl-dataverse/custom/`\r\n- Update the JSON-LD representation of the Datasets, by reexporting all published Datasets: `curl http://localhost:8080/api/admin/metadata/reExportAll`\r\n- Check the migration of the Licenses: The Licenses of all Datasets should stay the same",
+                "tarball_url": "https://api.github.com/repos/MPDL/dataverse/tarball/v5.10.1-mpdl-1",
+                "zipball_url": "https://api.github.com/repos/MPDL/dataverse/zipball/v5.10.1-mpdl-1",
+                "html_url": "https://github.com/MPDL/dataverse/releases/tag/v5.10.1-mpdl-1",
+                "url": "https://api.github.com/repos/MPDL/dataverse/releases/64105659",
+                "release_id": 64105659,
+                "date_created": "2022-04-11T12:38:59Z",
+                "date_published": "2022-04-11T12:50:57Z"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "type": "Release",
+                "value": "https://api.github.com/repos/MPDL/dataverse/releases/59893299",
+                "tag": "v5.9-mpdl-1",
+                "name": "v5.9-mpdl-1",
+                "author": {
+                    "name": "haarli",
+                    "type": "User"
+                },
+                "tarball_url": "https://api.github.com/repos/MPDL/dataverse/tarball/v5.9-mpdl-1",
+                "zipball_url": "https://api.github.com/repos/MPDL/dataverse/zipball/v5.9-mpdl-1",
+                "html_url": "https://github.com/MPDL/dataverse/releases/tag/v5.9-mpdl-1",
+                "url": "https://api.github.com/repos/MPDL/dataverse/releases/59893299",
+                "release_id": 59893299,
+                "date_created": "2022-02-15T10:53:51Z",
+                "date_published": "2022-02-18T11:06:58Z"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "code_of_conduct": [
+        {
+            "result": {
+                "value": "# Contributor Covenant Code of Conduct\n\n## Our Pledge\n\nIn the interest of fostering an open and welcoming environment, we as\ncontributors and maintainers pledge to making participation in our project and\nour community a harassment-free experience for everyone, regardless of age, body\nsize, disability, ethnicity, sex characteristics, gender identity and expression,\nlevel of experience, education, socio-economic status, nationality, personal\nappearance, race, religion, or sexual identity and orientation.\n\n## Our Standards\n\nExamples of behavior that contributes to creating a positive environment\ninclude:\n\n* Using welcoming and inclusive language\n* Being respectful of differing viewpoints and experiences\n* Gracefully accepting constructive criticism\n* Focusing on what is best for the community\n* Showing empathy towards other community members\n\nExamples of unacceptable behavior by participants include:\n\n* The use of sexualized language or imagery and unwelcome sexual attention or\n advances\n* Trolling, insulting/derogatory comments, and personal or political attacks\n* Public or private harassment\n* Publishing others' private information, such as a physical or electronic\n address, without explicit permission\n* Other conduct which could reasonably be considered inappropriate in a\n professional setting\n\n## Our Responsibilities\n\nProject maintainers are responsible for clarifying the standards of acceptable\nbehavior and are expected to take appropriate and fair corrective action in\nresponse to any instances of unacceptable behavior.\n\nProject maintainers have the right and responsibility to remove, edit, or\nreject comments, commits, code, wiki edits, issues, and other contributions\nthat are not aligned to this Code of Conduct, or to ban temporarily or\npermanently any contributor for other behaviors that they deem inappropriate,\nthreatening, offensive, or harmful.\n\n## Scope\n\nThis Code of Conduct applies both within project spaces and in public spaces\nwhen an individual is representing the project or its community. Examples of\nrepresenting a project or community include using an official project e-mail\naddress, posting via an official social media account, or acting as an appointed\nrepresentative at an online or offline event. Representation of a project may be\nfurther defined and clarified by project maintainers.\n\n## Enforcement\n\nInstances of abusive, harassing, or otherwise unacceptable behavior may be\nreported by contacting the project team at support at dataverse dot org. All\ncomplaints will be reviewed and investigated and will result in a response that\nis deemed necessary and appropriate to the circumstances. The project team is\nobligated to maintain confidentiality with regard to the reporter of an incident.\nFurther details of specific enforcement policies may be posted separately.\n\nProject maintainers who do not follow or enforce the Code of Conduct in good\nfaith may face temporary or permanent repercussions as determined by other\nmembers of the project's leadership.\n\n## Attribution\n\nThis Code of Conduct is adapted from the [Contributor Covenant][homepage], version 1.4,\navailable at https://www.contributor-covenant.org/version/1/4/code-of-conduct.html\n\n[homepage]: https://www.contributor-covenant.org\n\nFor answers to common questions about this code of conduct, see\nhttps://www.contributor-covenant.org/faq\n",
+                "type": "File_dump"
+            },
+            "confidence": 1,
+            "technique": "file_exploration",
+            "source": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/CODE_OF_CONDUCT.md"
+        }
+    ],
+    "has_build_file": [
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/Dockerfile",
+                "type": "Url",
+                "format": "dockerfile"
+            },
+            "confidence": 1,
+            "technique": "file_exploration",
+            "source": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/Dockerfile"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/modules/container-base/src/main/docker/Dockerfile",
+                "type": "Url",
+                "format": "dockerfile"
+            },
+            "confidence": 1,
+            "technique": "file_exploration",
+            "source": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/modules/container-base/src/main/docker/Dockerfile"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/modules/container-configbaker/Dockerfile",
+                "type": "Url",
+                "format": "dockerfile"
+            },
+            "confidence": 1,
+            "technique": "file_exploration",
+            "source": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/modules/container-configbaker/Dockerfile"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/src/main/docker/Dockerfile",
+                "type": "Url",
+                "format": "dockerfile"
+            },
+            "confidence": 1,
+            "technique": "file_exploration",
+            "source": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/src/main/docker/Dockerfile"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/conf/keycloak/docker-compose.yml",
+                "type": "Url",
+                "format": "docker_compose"
+            },
+            "confidence": 1,
+            "technique": "file_exploration",
+            "source": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/conf/keycloak/docker-compose.yml"
+        }
+    ],
+    "contributing_guidelines": [
+        {
+            "result": {
+                "value": "# Contributing to Dataverse\n\nThank you for your interest in contributing to Dataverse!  We are open to contributions from everyone. You don't need permission to participate. Just jump in. If you have questions, please reach out using one or more of the channels described below.\n\nWe aren't just looking for developers. There are many ways to contribute to Dataverse.  We welcome contributions of ideas, bug reports, usability research/feedback, documentation, code, and more!\n\n## Ideas/Feature Requests\n\nYour idea or feature request might already be captured in the Dataverse [issue tracker] on GitHub but if not, the best way to bring it to the community's attention is by posting on the [dataverse-community Google Group][] or bringing it up on a [Community Call][]. You're also welcome to make some noise in [chat.dataverse.org][] or cram your idea into 280 characters and mention [@dataverseorg][] on Twitter. To discuss your idea privately, please email it to support@dataverse.org\n\nThere's a chance your idea is already on our roadmap, which is available at https://www.iq.harvard.edu/roadmap-dataverse-project\n\n[chat.dataverse.org]: http://chat.dataverse.org\n[issue tracker]: https://github.com/IQSS/dataverse/issues\n[@dataverseorg]: https://twitter.com/dataverseorg\n\n## Usability testing\n\nPlease email us at support@dataverse.org if you are interested in participating in usability testing.\n\n## Bug Reports/Issues\n\nAn issue is a bug (a feature is no longer behaving the way it should) or a feature (something new to Dataverse that helps users complete tasks). You can browse the Dataverse [issue tracker] on GitHub by open or closed issues or by milestones.\n\nBefore submitting an issue, please search the existing issues by using the search bar at the top of the page. If there is an existing open issue that matches the issue you want to report, please add a comment to it.\n\nIf there is no pre-existing issue or it has been closed, please click on the \"New Issue\" button, log in, and write in what the issue is (unless it is a security issue which should be reported privately to security@dataverse.org).\n\nIf you do not receive a reply to your new issue or comment in a timely manner, please email support@dataverse.org with a link to the issue.\n\n### Writing an Issue\n\nFor the subject of an issue, please start it by writing the feature or functionality it relates to, i.e. \"Create Account:...\" or \"Dataset Page:...\". In the body of the issue, please outline the issue you are reporting with as much detail as possible. In order for the Dataverse development team to best respond to the issue, we need as much information about the issue as you can provide. Include steps to reproduce bugs. Indicate which version you're using, which is shown at the bottom of the page. We love screenshots!\n\n### Issue Attachments\n\nYou can attach certain files (images, screenshots, logs, etc.) by dragging and dropping, selecting them, or pasting from the clipboard. Files must be one of GitHub's [supported attachment formats] such as png, gif, jpg, txt, pdf, zip, etc. (Pro tip: A file ending in .log can be renamed to .txt so you can upload it.) If there's no easy way to attach your file, please include a URL that points to the file in question.\n\n[supported attachment formats]: https://help.github.com/articles/file-attachments-on-issues-and-pull-requests/\n\n## Documentation\n\nThe source for the documentation at http://guides.dataverse.org/en/latest/ is in the GitHub repo under the \"[doc][]\" folder. If you find a typo or inaccuracy or something to clarify, please send us a pull request! For more on the tools used to write docs, please see the [documentation][] section of the Developer Guide.\n\n[doc]: https://github.com/IQSS/dataverse/tree/develop/doc/sphinx-guides/source\n[documentation]: http://guides.dataverse.org/en/latest/developers/documentation.html\n\n## Code/Pull Requests\n\nWe love code contributions. Developers are not limited to the main Dataverse code in this git repo. You can help with API client libraries in your favorite language that are mentioned in the [API Guide][] or create a new library. You can help work on configuration management code that's mentioned in the [Installation Guide][]. The Installation Guide also covers a relatively new concept called \"external tools\" that allows developers to create their own tools that are available from within an installation of Dataverse.\n\n[API Guide]: http://guides.dataverse.org/en/latest/api\n[Installation Guide]: http://guides.dataverse.org/en/latest/installation\n\nIf you are interested in working on the main Dataverse code, great! Before you start coding, please reach out to us either on the [dataverse-community Google Group][], the [dataverse-dev Google Group][], [chat.dataverse.org][], or via support@dataverse.org to make sure the effort is well coordinated and we avoid merge conflicts. We maintain a list of [community contributors][] and [dev efforts][] the community is working on so please let us know if you'd like to be added or removed from either list.\n\nPlease read http://guides.dataverse.org/en/latest/developers/version-control.html to understand how we use the \"git flow\" model of development and how we will encourage you to create a GitHub issue (if it doesn't exist already) to associate with your pull request. That page also includes tips on making a pull request.\n\nAfter making your pull request, your goal should be to help it advance through our kanban board at https://github.com/orgs/IQSS/projects/2 . If no one has moved your pull request to the code review column in a timely manner, please reach out. Note that once a pull request is created for an issue, we'll remove the issue from the board so that we only track one card (the pull request).\n\nThanks for your contribution!\n\n[dataverse-community Google Group]: https://groups.google.com/group/dataverse-community\n[Community Call]: https://dataverse.org/community-calls\n[dataverse-dev Google Group]: https://groups.google.com/group/dataverse-dev\n[community contributors]: https://docs.google.com/spreadsheets/d/1o9DD-MQ0WkrYaEFTD5rF_NtyL8aUISgURsAXSL7Budk/edit?usp=sharing\n[dev efforts]: https://github.com/orgs/IQSS/projects/2#column-5298405\n",
+                "type": "File_dump"
+            },
+            "confidence": 1,
+            "technique": "file_exploration",
+            "source": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/CONTRIBUTING.md"
+        }
+    ],
+    "readme_url": [
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/README.md",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        }
+    ],
+    "has_script_file": [
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/modules/container-base/src/main/docker/scripts/init_1_generate_devmode_commands.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/modules/container-base/src/main/docker/scripts/entrypoint.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/modules/container-base/src/main/docker/scripts/init_1_generate_deploy_commands.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/modules/container-base/src/main/docker/scripts/removeExpiredCaCerts.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/modules/container-base/src/main/docker/scripts/startInForeground.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/modules/container-configbaker/scripts/help.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/modules/container-configbaker/scripts/bootstrap.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/modules/container-configbaker/scripts/fix-fs-perms.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/modules/container-configbaker/scripts/bootstrap/base/init.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/modules/container-configbaker/scripts/bootstrap/dev/init.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/scripts/issues/3544/delete.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/scripts/issues/3543/setup.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/scripts/issues/3543/test.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/scripts/issues/6522/find_duplicates.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/scripts/issues/2454/rollback.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/scripts/issues/2454/run-test.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/scripts/issues/2013/hit-homepage.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/scripts/issues/2013/download-zip.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/scripts/issues/6510/check_datafiles_6522_6510.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/scripts/issues/1380/list-ip-groups.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/scripts/issues/1380/02-build-dv-structure.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/scripts/issues/1380/add-ip-group.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/scripts/issues/1380/01-add.localhost.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/scripts/issues/guestbook/insert-guestbook-responses.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/scripts/issues/8600/delete_orphan_templates_8600.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/scripts/issues/2102/setup.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/scripts/issues/3354/createDatasetWithSha1Files.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/scripts/issues/7451/check_datafiles_7451.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/scripts/database/drop-create.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/scripts/database/dbupgrade.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/scripts/database/drop-all.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/scripts/installer/as-setup.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/scripts/installer/ec2-destroy-all.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/scripts/installer/ec2-create-instance.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/scripts/installer/ec2-list-all.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/scripts/tests/ec2-memory-benchmark/ec2-memory-benchmark.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/scripts/tests/ec2-memory-benchmark/ec2-memory-benchmark-remote.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/scripts/api/setup-all.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/scripts/api/setup-dvs.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/scripts/api/setup-builtin-roles.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/scripts/api/setup-datasetfields.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/scripts/api/setup-identity-providers.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/scripts/api/post-install-api-block.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/scripts/api/setup-users.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/scripts/api/update-datasetfields.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/scripts/api/testBlockEndpoints.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/scripts/api/setup-optional.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/scripts/api/setup-optional-harvard.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/scripts/api/setup-optional-publish-terms.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/scripts/r/rserve/rserve-setup.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/scripts/r/rserve/rserve-startup.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/scripts/dev/docker-final-setup.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/scripts/dev/dev-rebuild.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/scripts/icons/docs.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/scripts/icons/app.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/scripts/globalid/register_files.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/scripts/globalid/doi/ezid/switch_to_public.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/tests/shell/spec/update_fields_spec.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/tests/shell/spec/spec_helper.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/tests/performance/download-files/download-files.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/src/main/docker/scripts/init_2_configure.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/doc/Architecture/components.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/doc/Architecture/auth-classes.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/doc/Architecture/schemaspy.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/doc/sphinx-guides/source/_static/util/counter_daily.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/doc/sphinx-guides/source/_static/util/counter_weekly.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/doc/sphinx-guides/source/_static/util/clear_timer.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/conf/keycloak/rm-keycloak.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/conf/keycloak/run-keycloak.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/conf/solr/9.3.0/update-fields.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/conf/branding/config-before-migration.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/conf/branding/dataverse-edmond-setup.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/conf/branding/config-after-migration.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        }
+    ],
+    "executable_example": [
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/src/test/java/edu/harvard/iq/dataverse/util/irc-metrics.ipynb",
+                "type": "Url",
+                "format": "jupyter_notebook"
+            },
+            "confidence": 1,
+            "technique": "file_exploration",
+            "source": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/src/test/java/edu/harvard/iq/dataverse/util/irc-metrics.ipynb"
+        }
+    ],
+    "installation": [
+        {
+            "result": {
+                "type": "Text_excerpt",
+                "value": "To install Dataverse, please see our [Installation Guide][] which will prompt you to download our [latest release][]. \n",
+                "original_header": "Dataverse&#174;"
+            },
+            "confidence": 0.9037966033859475,
+            "technique": "supervised_classification",
+            "source": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/README.md"
+        }
+    ],
+    "full_title": [
+        {
+            "result": {
+                "type": "String",
+                "value": "Dataverse&#174;"
+            },
+            "confidence": 1,
+            "technique": "regular_expression",
+            "source": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/README.md"
+        }
+    ],
+    "logo": [
+        {
+            "result": {
+                "type": "Url",
+                "value": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/src/main/webapp/resources/images/dataverseproject_logo.jpg?raw=true"
+            },
+            "confidence": 1,
+            "technique": "regular_expression",
+            "source": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/README.md"
+        }
+    ],
+    "image": [
+        {
+            "result": {
+                "type": "Url",
+                "value": "https://jenkins.dataverse.org/buildStatus/icon?job=IQSS-dataverse-develop&amp;subject=API%20Test%20Status"
+            },
+            "confidence": 1,
+            "technique": "regular_expression",
+            "source": "https://raw.githubusercontent.com/MPDL/dataverse/mpdl-develop/README.md"
+        }
+    ]
+}

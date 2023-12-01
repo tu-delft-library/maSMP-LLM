@@ -1,0 +1,313 @@
+{
+    "somef_provenance": {
+        "somef_version": "0.9.4",
+        "somef_schema_version": "1.0.0",
+        "date": "2023-11-28 15:31:28"
+    },
+    "code_repository": [
+        {
+            "result": {
+                "value": "https://github.com/MPDL/upverse",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "owner": [
+        {
+            "result": {
+                "value": "MPDL",
+                "type": "Organization"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "date_created": [
+        {
+            "result": {
+                "value": "2022-04-26T11:10:38Z",
+                "type": "Date"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "date_updated": [
+        {
+            "result": {
+                "value": "2023-09-28T16:18:08Z",
+                "type": "Date"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "license": [
+        {
+            "result": {
+                "value": "https://api.github.com/licenses/mit",
+                "type": "License",
+                "name": "MIT License",
+                "url": "https://api.github.com/licenses/mit",
+                "spdx_id": "MIT"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "MIT License\n\nCopyright (c) 2022 Max Planck Digital Library\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+                "type": "File_dump"
+            },
+            "confidence": 1,
+            "technique": "file_exploration",
+            "source": "https://raw.githubusercontent.com/MPDL/upverse/main/LICENSE"
+        }
+    ],
+    "description": [
+        {
+            "result": {
+                "value": "Direct upload from data files to Edmond Research Repository",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "type": "Text_excerpt",
+                "value": "To prepare, log in to Edmond and: \n",
+                "original_header": "Previous"
+            },
+            "confidence": 0.9412956545798147,
+            "technique": "supervised_classification",
+            "source": "https://raw.githubusercontent.com/MPDL/upverse/main/README.md"
+        }
+    ],
+    "name": [
+        {
+            "result": {
+                "value": "upverse",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "full_name": [
+        {
+            "result": {
+                "value": "MPDL/upverse",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "issue_tracker": [
+        {
+            "result": {
+                "value": "https://api.github.com/repos/MPDL/upverse/issues",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "forks_url": [
+        {
+            "result": {
+                "value": "https://api.github.com/repos/MPDL/upverse/forks",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "stargazers_count": [
+        {
+            "result": {
+                "value": 1,
+                "type": "Number"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "keywords": [
+        {
+            "result": {
+                "value": "",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "forks_count": [
+        {
+            "result": {
+                "value": 1,
+                "type": "Number"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "download_url": [
+        {
+            "result": {
+                "value": "https://github.com/MPDL/upverse/releases",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "programming_languages": [
+        {
+            "result": {
+                "value": "HTML",
+                "name": "HTML",
+                "type": "Programming_language",
+                "size": 8336439
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "TypeScript",
+                "name": "TypeScript",
+                "type": "Programming_language",
+                "size": 73718
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "CSS",
+                "name": "CSS",
+                "type": "Programming_language",
+                "size": 17718
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "releases": [
+        {
+            "result": {
+                "type": "Release",
+                "value": "https://api.github.com/repos/MPDL/upverse/releases/113970133",
+                "tag": "v1.0.0",
+                "name": "v1.0.0",
+                "author": {
+                    "name": "github-actions[bot]",
+                    "type": "Bot"
+                },
+                "tarball_url": "https://api.github.com/repos/MPDL/upverse/tarball/v1.0.0",
+                "zipball_url": "https://api.github.com/repos/MPDL/upverse/zipball/v1.0.0",
+                "html_url": "https://github.com/MPDL/upverse/releases/tag/v1.0.0",
+                "url": "https://api.github.com/repos/MPDL/upverse/releases/113970133",
+                "release_id": 113970133,
+                "date_created": "2023-07-25T08:56:17Z",
+                "date_published": "2023-07-28T10:59:00Z"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "citation": [
+        {
+            "result": {
+                "value": "cff-version: 1.2.0\ntitle: Upverse\nmessage: >-\n  If you use this software, please cite it using the\n  metadata from this file.\ntype: software\nauthors:\n  - given-names: Jos\u00e9 Daniel\n    family-names: Vila Rodr\u00edguez\n    email: vilarodriguez@mpdl.mpg.de\n    affiliation: Max Planck Digital Library\n    orcid: 'https://orcid.org/0000-0001-5217-1715'\n  - given-names: Markus\n    family-names: Haarl\u00e4nder\n    email: haarl\u00e4nder@mpdl.mpg.de\n    affiliation: Max Plank Digital Library \n  - given-names: Sy Dat\n    family-names: Ho\n    email: ho@mpdl.mpg.de\n    affiliation: Max Plank Digital Library \n    orcid: 'https://orcid.org/0000-0002-6218-4146'\nidentifiers:\n  - type: doi\n    value: 10.17617/1.upv23\n    description: >-\n      Direct upload from data files to Edmond Research\n      Repository\nkeywords:\n  - edmond\n  - research\n  - data\n  - repository\n  - dataverse\n  - upload\nrepository-code: 'https://github.com/MPDL/upverse/releases'\nlicense: MIT",
+                "type": "File_dump",
+                "format": "cff"
+            },
+            "confidence": 1,
+            "technique": "file_exploration",
+            "source": "https://raw.githubusercontent.com/MPDL/upverse/main/CITATION.cff"
+        }
+    ],
+    "readme_url": [
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/upverse/main/README.md",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        }
+    ],
+    "installation": [
+        {
+            "result": {
+                "value": "    npm install\n\n",
+                "type": "Text_excerpt",
+                "original_header": "Installation",
+                "parent_header": [
+                    "Edmond research data uploader"
+                ]
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/upverse/main/README.md"
+        }
+    ],
+    "run": [
+        {
+            "result": {
+                "value": "    npm start\t\n",
+                "type": "Text_excerpt",
+                "original_header": "Run UpVerse app",
+                "parent_header": [
+                    "Edmond research data uploader"
+                ]
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/upverse/main/README.md"
+        },
+        {
+            "result": {
+                "value": "    - Menu for Settings\t\t\n    - Input API URL\t\n    - Input API Token\t\n    - Select destination dataset\n    - Folder or files  Chooser to select directory or multiple files\n",
+                "type": "Text_excerpt",
+                "original_header": "GUI",
+                "parent_header": [
+                    "Edmond research data uploader",
+                    "Run UpVerse app"
+                ]
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/upverse/main/README.md"
+        }
+    ],
+    "full_title": [
+        {
+            "result": {
+                "type": "String",
+                "value": "Edmond research data uploader"
+            },
+            "confidence": 1,
+            "technique": "regular_expression",
+            "source": "https://raw.githubusercontent.com/MPDL/upverse/main/README.md"
+        }
+    ],
+    "documentation": [
+        {
+            "result": {
+                "type": "Url",
+                "value": "https://github.com/MPDL/upverse/wiki",
+                "format": "wiki"
+            },
+            "confidence": 1,
+            "technique": "regular_expression",
+            "source": "https://raw.githubusercontent.com/MPDL/upverse/main/README.md"
+        }
+    ]
+}

@@ -1,0 +1,298 @@
+{
+    "somef_provenance": {
+        "somef_version": "0.9.4",
+        "somef_schema_version": "1.0.0",
+        "date": "2023-11-28 15:28:27"
+    },
+    "code_repository": [
+        {
+            "result": {
+                "value": "https://github.com/MPDL/joai-project",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "owner": [
+        {
+            "result": {
+                "value": "MPDL",
+                "type": "Organization"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "date_created": [
+        {
+            "result": {
+                "value": "2017-09-12T08:43:50Z",
+                "type": "Date"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "date_updated": [
+        {
+            "result": {
+                "value": "2018-08-13T12:31:15Z",
+                "type": "Date"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "license": [
+        {
+            "result": {
+                "value": "https://api.github.com/licenses/apache-2.0",
+                "type": "License",
+                "name": "Apache License 2.0",
+                "url": "https://api.github.com/licenses/apache-2.0",
+                "spdx_id": "Apache-2.0"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "description": [
+        {
+            "result": {
+                "value": "jOAI is an OAI-PMH data provider and harvester Java web application",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "type": "Text_excerpt",
+                "value": "The jOAI Java web application implements the [Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH)](http://openarchives.org/), version 2.0,\nand includes a data provider and harvester.\n \n",
+                "original_header": "jOAI Software"
+            },
+            "confidence": 0.9320264742335383,
+            "technique": "supervised_classification",
+            "source": "https://raw.githubusercontent.com/MPDL/joai-project/master/README.md"
+        },
+        {
+            "result": {
+                "type": "Text_excerpt",
+                "value": "The jOAI code was previously managed under two separate modules at SourceForge \n(joai-project and dlese-tools-project branch joai_v3_1_1_branch at \nhttps://sourceforge.net/projects/dlsciences/).\nIn March 2017, the jOAI code project was moved to GitHub. \n",
+                "original_header": "History"
+            },
+            "confidence": 0.9758550728076322,
+            "technique": "supervised_classification",
+            "source": "https://raw.githubusercontent.com/MPDL/joai-project/master/README.md"
+        }
+    ],
+    "name": [
+        {
+            "result": {
+                "value": "joai-project",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "full_name": [
+        {
+            "result": {
+                "value": "MPDL/joai-project",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "issue_tracker": [
+        {
+            "result": {
+                "value": "https://api.github.com/repos/MPDL/joai-project/issues",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "forks_url": [
+        {
+            "result": {
+                "value": "https://api.github.com/repos/MPDL/joai-project/forks",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "stargazers_count": [
+        {
+            "result": {
+                "value": 0,
+                "type": "Number"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "keywords": [
+        {
+            "result": {
+                "value": "",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "forks_count": [
+        {
+            "result": {
+                "value": 0,
+                "type": "Number"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "download_url": [
+        {
+            "result": {
+                "value": "https://github.com/MPDL/joai-project/releases",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "programming_languages": [
+        {
+            "result": {
+                "value": "Java",
+                "name": "Java",
+                "type": "Programming_language",
+                "size": 8843310
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "XSLT",
+                "name": "XSLT",
+                "type": "Programming_language",
+                "size": 863697
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "JavaScript",
+                "name": "JavaScript",
+                "type": "Programming_language",
+                "size": 29341
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "HTML",
+                "name": "HTML",
+                "type": "Programming_language",
+                "size": 13020
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "CSS",
+                "name": "CSS",
+                "type": "Programming_language",
+                "size": 5617
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "Python",
+                "name": "Python",
+                "type": "Programming_language",
+                "size": 1922
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "readme_url": [
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/joai-project/master/README.md",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        }
+    ],
+    "documentation": [
+        {
+            "result": {
+                "value": "https://github.com/MPDL/joai-project/tree/master/web/docs",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "type": "Url",
+                "value": "https://github.com/MPDL/joai-project/wiki",
+                "format": "wiki"
+            },
+            "confidence": 1,
+            "technique": "regular_expression",
+            "source": "https://raw.githubusercontent.com/MPDL/joai-project/master/README.md"
+        }
+    ],
+    "usage": [
+        {
+            "result": {
+                "value": "Please see the following documentation for jOAI:\n- [Installation instructions](web/docs/INSTALL.txt) - Install the pre-compiled binary WAR file to Tomcat ([get the latest release](https://github.com/NCAR/joai-project/releases/latest))\n- [Build instructions](web/docs/BUILD_INSTRUCTIONS.txt) - Build the web application from source\n- [Changes](web/docs/CHANGES.txt) - View changes in the latest software release\n- [Data provider documentation](https://uc.dls.ucar.edu/joai/docs/provider.jsp) - Set up and configure the data provider\n- [Harvester documentation](https://uc.dls.ucar.edu/joai/docs/harvester.jsp) - Set up and configure the harvester tool\n",
+                "type": "Text_excerpt",
+                "original_header": "Getting Started",
+                "parent_header": [
+                    "jOAI Software"
+                ]
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/joai-project/master/README.md"
+        }
+    ],
+    "application_domain": [
+        {
+            "result": {
+                "type": "String",
+                "value": "Semantic web"
+            },
+            "confidence": 0.9437008729211176,
+            "technique": "supervised_classification"
+        }
+    ],
+    "full_title": [
+        {
+            "result": {
+                "type": "String",
+                "value": "jOAI Software"
+            },
+            "confidence": 1,
+            "technique": "regular_expression",
+            "source": "https://raw.githubusercontent.com/MPDL/joai-project/master/README.md"
+        }
+    ]
+}

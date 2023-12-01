@@ -1,0 +1,475 @@
+{
+    "somef_provenance": {
+        "somef_version": "0.9.4",
+        "somef_schema_version": "1.0.0",
+        "date": "2023-11-28 15:25:14"
+    },
+    "code_repository": [
+        {
+            "result": {
+                "value": "https://github.com/MPDL/unibiAPC",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "owner": [
+        {
+            "result": {
+                "value": "MPDL",
+                "type": "Organization"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "date_created": [
+        {
+            "result": {
+                "value": "2014-10-23T11:59:03Z",
+                "type": "Date"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "date_updated": [
+        {
+            "result": {
+                "value": "2018-11-23T08:03:42Z",
+                "type": "Date"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "description": [
+        {
+            "result": {
+                "value": "Collect and disseminate information on fee-based Open Access publishing",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "- [FWF - Austrian Science Fund](https://www.fwf.ac.at/en/research-funding/open-access-policy/)\n- [Institute of Science and Technology Austria](https://ist.ac.at/open-access/open-access-policy/)\n- [Technische Universit\u00e4t Wien](http://www.ub.tuwien.ac.at/eng/openaccess)\n",
+                "type": "Text_excerpt",
+                "original_header": "Participating Austrian Institutions"
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/unibiAPC/master/README.md"
+        },
+        {
+            "result": {
+                "value": "- [SNSF - Swiss National Science Foundation](http://www.snf.ch/en/theSNSF/research-policies/open-access/Pages/default.aspx#OA%202020%20Policy)\n",
+                "type": "Text_excerpt",
+                "original_header": "Participating Swiss Institutions"
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/unibiAPC/master/README.md"
+        },
+        {
+            "result": {
+                "value": "- [Universit\u00e0 degli Studi di Milano](http://www.unimi.it/ENG/)\n",
+                "type": "Text_excerpt",
+                "original_header": "Participating Italian Institutions"
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/unibiAPC/master/README.md"
+        },
+        {
+            "result": {
+                "value": "- Akershus University Hospital\n- BI Norwegian Business School\n- Bergen University College\n- Fridtjof Nansen Institute\n- Gen\u00d8k - Centre for Biosafety\n- Harstad University College\n- Innlandet Hospital Trust\n- Institute of Marine Research\n- Molde University College\n- NILU - Norwegian Institute for Air Research\n- Nansen Environmental and Remote Sensing Center\n- Nord University\n- Norwegian Center for Studies on Violence and Traumatic Stress\n- Norwegian Institute for Agricultural and Environmental Research\n- Norwegian Institute for Nature Research\n- Norwegian Institute of Public Health\n- Norwegian Institute of Water Research\n- Norwegian School of Sport Sciences\n- Norwegian University of Life Sciences\n- Norwegian University of Science and Technology\n- Oslo University Hospital\n- Oslo and Akershus university college\n- SINTEF (Foundation for Scientific and Industrial Research)\n- S\u00f8rlandet Hospital Trust\n- Uni Research\n- University College of Southeast Norway\n- University of Agder\n- University of Bergen\n- University of Oslo\n- University of Stavanger\n- University of Troms\u00f8 - The Arctic University of Norway\n- Vestfold Hospital Trust\n- Vestre Viken Hospital Trust\n",
+                "type": "Text_excerpt",
+                "original_header": "Institutions from Norway:"
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/unibiAPC/master/README.md"
+        },
+        {
+            "result": {
+                "value": "- [Universitat de Barcelona](http://www.ub.edu/web/ub/en/index.html)\n",
+                "type": "Text_excerpt",
+                "original_header": "Participating Spanish Institutions:"
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/unibiAPC/master/README.md"
+        },
+        {
+            "result": {
+                "value": "- Chalmers University of Technology\n- Dalarna University College\n- University of Gothenburg\n- Bor\u00e5s University College\n- University College West\n- Karolinska Institutet\n- KTH Royal Institute of Technology\n- Link\u00f6ping University\n- Linnaeus University\n- Lule\u00e5 University of Technology\n- Lund University\n- Malm\u00f6 University\n- \u00d6rebro University\n- Swedish University of Agricultural Sciences\n- Stockholm University\n- Ume\u00e5 University\n- Uppsala University\n",
+                "type": "Text_excerpt",
+                "original_header": "Institutions from Sweden (via <a href=\"https://github.com/Kungbib/openapc-se\">Open APC Sweden</a>):"
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/unibiAPC/master/README.md"
+        },
+        {
+            "result": {
+                "value": "The [Couperin consortium](https://couperin.org) aggregates data on APC expenditures made by institutions in France:\n\n- Aix-Marseille Universit\u00e9\n- Universit\u00e9 d'Angers\n- Universit\u00e9 de Bordeaux\n- Universit\u00e9 de Bourgogne\n- Centre de coop\u00e9ration internationale en recherche agronomique pour le d\u00e9veloppement (CIRAD)\n- Centre national de la recherche scientifique (CNRS)\n- Ecole normale sup\u00e9rieure de Paris\n- \u00c9cole sup\u00e9rieure de physique et de chimie industrielles de la Ville de Paris (ESPCI)\n- Hospices Civils de Lyon\n- Universit\u00e9 Grenoble Alpes\n- Institut de recherche pour le d\u00e9veloppement (IRD)\n- Institut national de recherche en informatique et en automatique (INRIA)\n- Institut national de la recherche agronomique (INRA)\n- Institut national de la sant\u00e9 et de la recherche m\u00e9dicale (INSERM)\n- Institut national polytechnique de Toulouse (INPT)\n- Universit\u00e9 d'Avignon et des Pays de Vaucluse\n- Universit\u00e9 de Caen Normandie\n- Universit\u00e9 Claude Bernard Lyon 1\n- Universit\u00e9 Clermont Auvergne\n- Universit\u00e9 de France-Comt\u00e9\n- Universit\u00e9 Lille 1\n- Universit\u00e9 Lille 2\n- Universit\u00e9 de Lorraine\n- Universit\u00e9 de Nantes\n- Universit\u00e9 Nice-Sophia-Antipolis\n- Universit\u00e9 de Poitiers\n- Universit\u00e9 de Rennes 1\n- Universit\u00e9 de Strasbourg\n- Universit\u00e9 de Toulon\n- Universit\u00e9 Toulouse III\n- Universit\u00e9 Paris Descartes (Paris V)\n- Universit\u00e9 Pierre et Marie Curie (Paris VI)\n- Universit\u00e9 Paris Diderot (Paris VII)\n",
+                "type": "Text_excerpt",
+                "original_header": "Institutions from France"
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/unibiAPC/master/README.md"
+        },
+        {
+            "result": {
+                "value": "- [Wellcome Trust](https://wellcome.ac.uk/funding/managing-grant/open-access-policy)\n- [JISC](https://www.jisc-collections.ac.uk/Jisc-Monitor/APC-data-collection/)\n\nJisc Collections released data on APC payments made by UK higher education institutions (HEIs):\n\n- Aberystwyth University\n- Aston University\n- Bangor University\n- Brunel University\n- Cardiff University\n- Cranfield University\n- Edinburgh Napier University\n- Glasgow Caledonian University\n- Goldsmiths\n- Heriot-Watt University\n- Imperial College London\n- Institute of Cancer Research (ICR)\n- Keele University\n- King's College London\n- Leeds Beckett University\n- Liverpool John Moores University\n- Liverpool School of Tropical Medicine\n- London School of Economics (LSE)\n- London School of Hygiene & Tropical Medicine (LSHTM)\n- Lancaster University\n- Manchester Metropolitan University\n- Northumbria University\n- Plymouth University\n- Queen Mary, University of London\n- Queen's University Belfast\n- Royal Holloway\n- St George's, University of London\n- Swansea University\n- The Open University\n- University College London (UCL)\n- University of Aberdeen\n- University of Bath\n- University of Birmingham\n- University of Bristol\n- University of Cambridge\n- University of Dundee\n- University of Durham\n- University of East Anglia\n- University of Edinburgh\n- University of Exeter\n- University of Glasgow\n- University of Huddersfield\n- University of Hull\n- University of Kent\n- University of Leeds\n- University of Leicester\n- University of Liverpool\n- University of Loughborough\n- University of Manchester\n- University of Newcastle\n- University of Nottingham\n- University of Oxford\n- University of Portsmouth\n- University of Reading\n- University of Salford\n- University of Sheffield\n- University of Southampton\n- University of St Andrews\n- University of Strathclyde\n- University of Surrey\n- University of Sussex\n- University of the West of England\n- University of Ulster\n- University of Warwick\n- University of York\n",
+                "type": "Text_excerpt",
+                "original_header": "Participating Institutions from the United Kingdom:"
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/unibiAPC/master/README.md"
+        },
+        {
+            "result": {
+                "value": "- [University of Chemistry and Technology, Prague](https://www.vscht.cz/?jazyk=en)\n",
+                "type": "Text_excerpt",
+                "original_header": "Participating Institutions from the Czech Republic (contributed by <a href=\"https://www.czechelib.cz/en/\">CzechELib</a>):"
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/unibiAPC/master/README.md"
+        },
+        {
+            "result": {
+                "value": "- [Harvard University](https://osc.hul.harvard.edu/programs/hope/)\n- [Indiana University - Purdue University Indianapolis (IUPUI)](http://www.ulib.iupui.edu/digitalscholarship/openaccess/oafund)\n- [University of Rhode Island](https://uri.libguides.com/oafund)\n- [Virginia Polytechnic Institute and State University](http://guides.lib.vt.edu/oa)\n",
+                "type": "Text_excerpt",
+                "original_header": "Participating Institutions from the United States:"
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/unibiAPC/master/README.md"
+        },
+        {
+            "result": {
+                "value": "- [University of Calgary](http://library.ucalgary.ca/open-access-authors-fund)\n",
+                "type": "Text_excerpt",
+                "original_header": "Participating Canadian Institutions:"
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/unibiAPC/master/README.md"
+        },
+        {
+            "result": {
+                "type": "Text_excerpt",
+                "value": "The aim of this repository is: \n- to release datasets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License\n- to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions. \nAt the moment this project provides cost data on `r nrow(my_apc)` open access journal articles, amounting to \u20ac `r sum(my_apc$euro)` and contributed by `r length(unique(my_apc$institution))` institutions. \n",
+                "original_header": "About"
+            },
+            "confidence": 0.9693355452582333,
+            "technique": "supervised_classification",
+            "source": "https://raw.githubusercontent.com/MPDL/unibiAPC/master/README.md"
+        },
+        {
+            "result": {
+                "type": "Text_excerpt",
+                "value": "The data content covers APCs as paid for by our central budget for the Max Planck Society (MPS). APCs funded locally by Max Planck Institutes are not part of this data set. The MPS has a limited input tax reduction. The refund of input VAT for APC is 20%. Until the end of 2007 the MPS was VAT exempt. \n",
+                "original_header": "Participating Research Society Funds in Germany"
+            },
+            "confidence": 0.9927684862723669,
+            "technique": "supervised_classification",
+            "source": "https://raw.githubusercontent.com/MPDL/unibiAPC/master/README.md"
+        }
+    ],
+    "name": [
+        {
+            "result": {
+                "value": "unibiAPC",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "full_name": [
+        {
+            "result": {
+                "value": "MPDL/unibiAPC",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "issue_tracker": [
+        {
+            "result": {
+                "value": "https://api.github.com/repos/MPDL/unibiAPC/issues",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "forks_url": [
+        {
+            "result": {
+                "value": "https://api.github.com/repos/MPDL/unibiAPC/forks",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "stargazers_count": [
+        {
+            "result": {
+                "value": 0,
+                "type": "Number"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "keywords": [
+        {
+            "result": {
+                "value": "",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "forks_count": [
+        {
+            "result": {
+                "value": 0,
+                "type": "Number"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "download_url": [
+        {
+            "result": {
+                "value": "https://github.com/MPDL/unibiAPC/releases",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "programming_languages": [
+        {
+            "result": {
+                "value": "Python",
+                "name": "Python",
+                "type": "Programming_language",
+                "size": 228330
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "R",
+                "name": "R",
+                "type": "Programming_language",
+                "size": 15892
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "Perl",
+                "name": "Perl",
+                "type": "Programming_language",
+                "size": 3729
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "readme_url": [
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/unibiAPC/master/README.md",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/unibiAPC/master/README.Rmd",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        }
+    ],
+    "license": [
+        {
+            "result": {
+                "value": "The MIT License (MIT)\n\nCopyright (c) 2016-2018 Christoph Broschinski\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of\nthis software and associated documentation files (the \"Software\"), to deal in\nthe Software without restriction, including without limitation the rights to\nuse, copy, modify, merge, publish, distribute, sublicense, and/or sell copies\nof the Software, and to permit persons to whom the Software is furnished to do\nso, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n",
+                "type": "File_dump"
+            },
+            "confidence": 1,
+            "technique": "file_exploration",
+            "source": "https://raw.githubusercontent.com/MPDL/unibiAPC/master/python/LICENSE.md"
+        },
+        {
+            "result": {
+                "value": "The datasets are made available under the Open Database License: http://opendatacommons.org/licenses/odbl/1.0/. Any rights in individual contents of the database are licensed under the Database Contents License: http://opendatacommons.org/licenses/dbcl/1.0/\n\nThis work is licensed under the Creative Commons Attribution 4.0 Unported License.\n",
+                "type": "Text_excerpt",
+                "original_header": "License"
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/unibiAPC/master/README.md"
+        }
+    ],
+    "contributing_guidelines": [
+        {
+            "result": {
+                "value": "Any academic institution or research funder paying for Article Process Charges (APCs) can contribute to OpenAPC, no formal registration is required.\nThis [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) ([German version](https://github.com/OpenAPC/openapc-de/wiki/Handreichung-Dateneingabe)) explains the details.\n",
+                "type": "Text_excerpt",
+                "original_header": "How to contribute?"
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/unibiAPC/master/README.md"
+        },
+        {
+            "result": {
+                "value": "- [University of Chemistry and Technology, Prague](https://www.vscht.cz/?jazyk=en)\n",
+                "type": "Text_excerpt",
+                "original_header": "Participating Institutions from the Czech Republic (contributed by <a href=\"https://www.czechelib.cz/en/\">CzechELib</a>):"
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/unibiAPC/master/README.md"
+        }
+    ],
+    "usage": [
+        {
+            "result": {
+                "value": "Metadata representing journals or publishers were obtained from Crossref in order to avoid extensive validation of the records. Case where we don't re-use information from Crossref to disambiguate the spending metadata are documented [here](python/test/test_apc_csv.py). Moreover, indexing coverage in Europe PMC and the Web of science is automatically checked.\n\n\n|Source     |Variable  |Description                     |\n|:--------------|:---------|:-----------------------------------------------|\n|CrossRef   |`publisher` |Title of Publisher             |\n|CrossRef   |`journal_full_title` |Full Title of Journal  |\n|CrossRef   |`issn` |International Standard Serial Numbers (collapsed) |\n|CrossRef   |`issn_print` |ISSN print |\n|CrossRef   |`issn_electronic`  |ISSN electronic        |\n|CrossRef   |`license_ref`  |License of the article     |\n|CrossRef   |`indexed_in_crossref`  |Is the article metadata registered with CrossRef? (logical)    |\n|EuropePMC    |`pmid`  |PubMed ID                 |\n|EuropePMC    |`pmcid` |PubMed Central ID         |\n|Web of Science |`ut` |Web of Science record ID             |\n|DOAJ           |`doaj` |Is the journal indexed in the DOAJ? (logical)    |\n\n```{r, echo=FALSE, cache = FALSE}\n\nmy.apc <- readr::read_csv(\"data/apc_de.csv\")\n\nmy.apc_doi <- my.apc[!is.na(my.apc$doi), ]\nmy.apc_pmid <- my.apc[!is.na(my.apc$pmid), ]\nmy.apc_pmcid <- my.apc[!is.na(my.apc$pmcid), ]\nmy.apc_ut <- my.apc[!is.na(my.apc$ut), ]\n```\n\nIndexing coverage\n\n|Identifier                 | Coverage                                                          |\n|:--------------------------|:------------------------------------------------------------------|\n|DOI                        |  `r format(nrow(my.apc_doi)*100/nrow(my.apc), digits = 4)`%       |\n|PubMed ID                  |  `r format(nrow(my.apc_pmid)*100/nrow(my.apc), digits = 4)`%      |\n|PubMed Central ID          |  `r format(nrow(my.apc_pmcid)*100/nrow(my.apc), digits = 4)`%     |\n|Web of Science record ID   | `r format(nrow(my.apc_ut)*100/nrow(my.apc), digits = 4)`%      |\n\n\n\n\n",
+                "type": "Text_excerpt",
+                "original_header": "Use of external sources"
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/unibiAPC/master/README.md"
+        }
+    ],
+    "citation": [
+        {
+            "result": {
+                "value": "When citing this dataset, please indicate the [release](https://github.com/OpenAPC/openapc-de/releases/) you are referring to. The releases also contain information on contributors relating to the respective release.\n\nPlease do not cite the master branch of the Github repository (https://github.com/OpenAPC/openapc-de/tree/master/), but use the release numbers/tags.\n\nBielefeld University Library archives a copy (including commit history). To cite:\n\n{Contributors:} *Datasets on fee-based Open Access publishing across German Institutions*. Bielefeld University. [10.4119/UNIBI/UB.2014.18](http://dx.doi.org/10.4119/UNIBI/UB.2014.18)\n",
+                "type": "Text_excerpt",
+                "original_header": "How to cite?"
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/unibiAPC/master/README.md"
+        }
+    ],
+    "acknowledgement": [
+        {
+            "result": {
+                "value": "This project was set up in collaboration with the [DINI working group Electronic Publishing](http://dini.de/ag/e-pub1/). It follows [Wellcome Trust example to share data on paid APCs](http://blog.wellcome.ac.uk/2014/03/28/the-cost-of-open-access-publishing-a-progress-report/) and recognises efforts from [JISC](https://www.jisc-collections.ac.uk/News/Releasing-open-data-about-Total-Cost-of-Ownership/) and the [ESAC initative](http://esac-initiative.org/) to standardise APC reporting.\n",
+                "type": "Text_excerpt",
+                "original_header": "Acknowledgement"
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/unibiAPC/master/README.md"
+        }
+    ],
+    "contributors": [
+        {
+            "result": {
+                "value": "Jens Harald Aasheim, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Sabine Boccalini, Kim Braun, Christoph Broschinski, Dorothea Busjahn, Pablo de Castro, Roberto Cozatl, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Stefan Dr\u00f6\u00dfler, Karin Eckert, Carsten Elsner, Clemens Engelhardt, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Paola Galimberti, Agnes Gei\u00dfelmann, Kai Karin Geschuhn, Steffi Grimm, Christian Gutknecht, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Stephanie Herzog, Ute Holzwarth, Christie Hurrell, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Andreas Kennecke, Robert Kiley, Ilka Kleinod, Lydia Koglin, Gerrit Kuehle, Ignasi Labastida i Juan, Gerald Langhanke, Stuart Lawson, Kathrin Lucht-Roussel, Jan L\u00fcth, Frank L\u00fctzenkirchen, Anna Marini, Anja Oberl\u00e4nder, Jere Odell, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Thomas Porquet, Markus Putnings, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Stefanie Seeh, Adriana Sikora, Susanne Stemmler, Matti St\u00f6hr, Eva Stopkov\u00e1, Andr\u00e9e Rathemacher, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Ilka Rudolf, Marco Tullney, Astrid Vieler, Viola Vo\u00df, Marco Winkler, Sabine Witt, Philip Young\n",
+                "type": "Text_excerpt",
+                "original_header": "Contributors"
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/unibiAPC/master/README.md"
+        }
+    ],
+    "contact": [
+        {
+            "result": {
+                "value": "For bugs, feature requests and other issues, please submit an issue via [Github](https://github.com/OpenAPC/openapc-de/issues/new).\n\nFor general comments, email openapc at uni-bielefeld.de\n",
+                "type": "Text_excerpt",
+                "original_header": "Contact"
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/unibiAPC/master/README.md"
+        }
+    ],
+    "invocation": [
+        {
+            "result": {
+                "type": "Text_excerpt",
+                "value": "\n```{r, echo=FALSE, results='asis', message = FALSE}\nmy_apc %>% select(institution, euro) %>% \n  group_by(institution) %>% \n  ezsummary::ezsummary(n = TRUE, digits= 0, median = TRUE,\n                       extra = c(\n                         sum = \"sum(., na.rm = TRUE)\",\n                         min = \"min(., na.rm = TRUE)\",\n                         max = \"max(., na.rm = TRUE)\"\n                         )) %>%\n  mutate_all(format, big.mark=',') %>%\n  ezsummary::ezmarkup('...[. (.)]..[. - .]') %>%\n#> get rid of blanks\n  mutate(`mean (sd)` = gsub(\"\\\\(  \", \"(\", .$`mean (sd)`)) %>% \n  select(institution, n, sum, `mean (sd)`, median, `min - max`) %>%\n  arrange(desc(n)) %>%\n  knitr::kable(col.names = c(\"Institution\", \"Articles\", \"Spending total (in \u20ac)\", \"Mean (SD)\", \"Median\", \"Minimum - Maximum\"), align = c(\"l\",\"r\", \"r\", \"r\", \"r\", \"r\"))\n``` \n",
+                "original_header": "Fully Open Access Journals"
+            },
+            "confidence": 0.906763643352601,
+            "technique": "supervised_classification",
+            "source": "https://raw.githubusercontent.com/MPDL/unibiAPC/master/README.md"
+        },
+        {
+            "result": {
+                "type": "Text_excerpt",
+                "value": "```{r, echo = FALSE, warning = TRUE}\n\nknitr::opts_knit$set(base.url = \"/\")\nknitr::opts_chunk$set(\n  comment = \"#>\",\n  collapse = TRUE,\n  warning = FALSE,\n  message = FALSE,\n  echo = FALSE,\n  fig.width = 9,\n  fig.height = 6\n)\noptions(scipen = 999, digits = 0, tibble.width = Inf, tibble.print_max = Inf)\n\nknitr::knit_hooks$set(inline = function(x) {\n  prettyNum(x, big.mark = \",\")\n})\n```\n```{r}\nrequire(dplyr)\nrequire(ggplot2)\nrequire(ezsummary)\nrequire(pander)\n```\n```{r, echo=FALSE, cache = FALSE}\nmy_apc <- readr::read_csv(\"data/apc_de.csv\")\n```\n \n"
+            },
+            "confidence": 0.9211067534061969,
+            "technique": "supervised_classification",
+            "source": "https://raw.githubusercontent.com/MPDL/unibiAPC/master/README.md"
+        }
+    ],
+    "full_title": [
+        {
+            "result": {
+                "type": "String",
+                "value": ""
+            },
+            "confidence": 1,
+            "technique": "regular_expression",
+            "source": "https://raw.githubusercontent.com/MPDL/unibiAPC/master/README.md"
+        }
+    ],
+    "documentation": [
+        {
+            "result": {
+                "type": "Url",
+                "value": "https://github.com/MPDL/unibiAPC/wiki",
+                "format": "wiki"
+            },
+            "confidence": 1,
+            "technique": "regular_expression",
+            "source": "https://raw.githubusercontent.com/MPDL/unibiAPC/master/README.md"
+        }
+    ],
+    "image": [
+        {
+            "result": {
+                "type": "Url",
+                "value": "https://raw.githubusercontent.com/MPDL/unibiAPC/master/figure/boxplot_oa.png"
+            },
+            "confidence": 1,
+            "technique": "regular_expression",
+            "source": "https://raw.githubusercontent.com/MPDL/unibiAPC/master/README.md"
+        }
+    ]
+}

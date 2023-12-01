@@ -1,0 +1,324 @@
+{
+    "somef_provenance": {
+        "somef_version": "0.9.4",
+        "somef_schema_version": "1.0.0",
+        "date": "2023-11-28 15:27:36"
+    },
+    "code_repository": [
+        {
+            "result": {
+                "value": "https://github.com/MPDL/csl-editor-demo-site",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "owner": [
+        {
+            "result": {
+                "value": "MPDL",
+                "type": "Organization"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "date_created": [
+        {
+            "result": {
+                "value": "2015-10-14T11:33:48Z",
+                "type": "Date"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "date_updated": [
+        {
+            "result": {
+                "value": "2016-08-10T15:13:06Z",
+                "type": "Date"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "license": [
+        {
+            "result": {
+                "value": "https://api.github.com/licenses/mit",
+                "type": "License",
+                "name": "MIT License",
+                "url": "https://api.github.com/licenses/mit",
+                "spdx_id": "MIT"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "description": [
+        {
+            "result": {
+                "value": "Reference implementation of the CSL editor",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "name": [
+        {
+            "result": {
+                "value": "csl-editor-demo-site",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "full_name": [
+        {
+            "result": {
+                "value": "MPDL/csl-editor-demo-site",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "issue_tracker": [
+        {
+            "result": {
+                "value": "https://api.github.com/repos/MPDL/csl-editor-demo-site/issues",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "forks_url": [
+        {
+            "result": {
+                "value": "https://api.github.com/repos/MPDL/csl-editor-demo-site/forks",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "stargazers_count": [
+        {
+            "result": {
+                "value": 0,
+                "type": "Number"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "keywords": [
+        {
+            "result": {
+                "value": "",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "forks_count": [
+        {
+            "result": {
+                "value": 0,
+                "type": "Number"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "download_url": [
+        {
+            "result": {
+                "value": "https://github.com/MPDL/csl-editor-demo-site/releases",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "programming_languages": [
+        {
+            "result": {
+                "value": "HTML",
+                "name": "HTML",
+                "type": "Programming_language",
+                "size": 18249
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "JavaScript",
+                "name": "JavaScript",
+                "type": "Programming_language",
+                "size": 16012
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "Shell",
+                "name": "Shell",
+                "type": "Programming_language",
+                "size": 1858
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "has_script_file": [
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/csl-editor-demo-site/master/deploy.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/csl-editor-demo-site/master/configure.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        }
+    ],
+    "readme_url": [
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/csl-editor-demo-site/master/README.md",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        }
+    ],
+    "citation": [
+        {
+            "result": {
+                "value": "This web application allows users of CSL based reference managers to search for citation styles and edit them. It's still an alpha version, but the Visual Editor supports all the features of independent CSL styles (AFAIK) and it should be possible to do real work with it.\n\nIt is an implementation of the [CSL editor library](https://github.com/citation-style-editor/csl-editor).\n\nPlay with it here: [Citation Style Editor](http://editor.citationstyles.org)\n",
+                "type": "Text_excerpt",
+                "original_header": "Reference implementation of the cslEdit library for searching and editing .csl (Citation Style Language) files"
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/csl-editor-demo-site/master/README.md"
+        },
+        {
+            "result": {
+                "value": "This process creates a static HTML site with concatenated javascript files and cache busters on the URLs, and optionally pushes to the `gh-pages` branch, currently served by github at [http://editor.citationstyles.org](http://editor.citationstyles.org).\n\n- Run `git clone --recursive https://github.com/citation-style-editor/csl-editor-demo-site.git csl-demo` to checkout the repo.\n\n- From the repo directory, run `./deploy.sh $BUILD_DIR $GH_PAGES_REPO_DIR`, where:\n  - `$BUILD_DIR` is the name of the directory you wish to deploy to, relative to the parent of the current directory. **All current contents of** `$BUILD_DIR` **will be removed!**\n  - `$GH_PAGES_REPO_DIR` (optional) is the name of a checked out `csl-editor-demo-site` repo directory, again relative to the parent of the current directory, which will be used to copy the built version and push the result to the `gh-pages` branch in github, which will automatically update the site at [editor.citationstyles.org](http://editor.citationstyles.org), the domain given in the CNAME file.\n\n- Point your browser to `http://editor.citationstyles.org/cslEditorLib/pages/unitTests.html` to run the unit tests\n\n- Point your browser to `http://editor.citationstyles.org` to view the deployed site\n",
+                "type": "Text_excerpt",
+                "original_header": "To Deploy",
+                "parent_header": [
+                    "Reference implementation of the cslEdit library for searching and editing .csl (Citation Style Language) files"
+                ]
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/csl-editor-demo-site/master/README.md"
+        },
+        {
+            "result": {
+                "value": "Create a fork of this `csl-editor-demo-site` repository and feel free to alter everything for your own needs _except_ for the core library within the `cslEditorLib` git submodule.\n\nCustomisable features include:\n\n- Load/Save functions, see `src/visualEditorPage.js`\n- Navigation bar and feedback widget, see `html/navigation.html`\n\nYou can override these without touching `cslEditorLib`.\n",
+                "type": "Text_excerpt",
+                "original_header": "Customising the editor to integrate with your website or application",
+                "parent_header": [
+                    "Reference implementation of the cslEdit library for searching and editing .csl (Citation Style Language) files"
+                ]
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/csl-editor-demo-site/master/README.md"
+        },
+        {
+            "result": {
+                "value": "See documentation for the core library code and it's API at the [CSLEditorLib wiki](https://github.com/citation-style-editor/csl-editor/wiki).\n\nIf you fix bugs or otherwise improve the core [cslEditorLib](https://github.com/citation-style-editor/csl-editor) library, ensure the changes are not specific to your implementation and please issue a [pull request](https://github.com/citation-style-editor/csl-editor/pulls) so that everyone can benefit. Thanks!\n\n",
+                "type": "Text_excerpt",
+                "original_header": "Customising the core library",
+                "parent_header": [
+                    "Reference implementation of the cslEdit library for searching and editing .csl (Citation Style Language) files"
+                ]
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/csl-editor-demo-site/master/README.md"
+        }
+    ],
+    "requirements": [
+        {
+            "result": {
+                "value": "- bash (on Windows, I recommend git bash included with [msysgit](http://code.google.com/p/msysgit/downloads/list))\n- git\n- [Jekyll](https://github.com/mojombo/jekyll/wiki/install)\n- Node.js 0.8.4 or later\n- Java runtime (optional - for running trang to convert the CSL schema)\n- Mail server (for sending feedback emails)\n",
+                "type": "Text_excerpt",
+                "original_header": "Prerequisites",
+                "parent_header": [
+                    "Reference implementation of the cslEdit library for searching and editing .csl (Citation Style Language) files"
+                ]
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/csl-editor-demo-site/master/README.md"
+        }
+    ],
+    "installation": [
+        {
+            "result": {
+                "value": "- Run `git clone --recursive https://github.com/citation-style-editor/csl-editor-demo-site.git csl-demo` to checkout the repo.\n\n- In the repo directory, run `jekyll serve` (optional: add `--watch` to automatically rebuild when source changes).\n\n- Point your browser to `localhost:5001` to view the site locally.\n\n- Point your browser to `localhost:5001/cslEditorLib/pages/unitTests.html` to run the unit tests\n",
+                "type": "Text_excerpt",
+                "original_header": "To Setup Development Version",
+                "parent_header": [
+                    "Reference implementation of the cslEdit library for searching and editing .csl (Citation Style Language) files"
+                ]
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/csl-editor-demo-site/master/README.md"
+        }
+    ],
+    "full_title": [
+        {
+            "result": {
+                "type": "String",
+                "value": "Reference implementation of the cslEdit library for searching and editing .csl (Citation Style Language) files"
+            },
+            "confidence": 1,
+            "technique": "regular_expression",
+            "source": "https://raw.githubusercontent.com/MPDL/csl-editor-demo-site/master/README.md"
+        }
+    ],
+    "documentation": [
+        {
+            "result": {
+                "type": "Url",
+                "value": "https://github.com/citation-style-editor/csl-editor/wiki",
+                "format": "wiki"
+            },
+            "confidence": 1,
+            "technique": "regular_expression",
+            "source": "https://raw.githubusercontent.com/MPDL/csl-editor-demo-site/master/README.md"
+        },
+        {
+            "result": {
+                "type": "Url",
+                "value": "https://github.com/MPDL/csl-editor-demo-site/wiki",
+                "format": "wiki"
+            },
+            "confidence": 1,
+            "technique": "regular_expression",
+            "source": "https://raw.githubusercontent.com/MPDL/csl-editor-demo-site/master/README.md"
+        }
+    ]
+}

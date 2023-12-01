@@ -1,0 +1,495 @@
+{
+    "somef_provenance": {
+        "somef_version": "0.9.4",
+        "somef_schema_version": "1.0.0",
+        "date": "2023-11-28 15:31:40"
+    },
+    "code_repository": [
+        {
+            "result": {
+                "value": "https://github.com/MPDL/repo2docker",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "owner": [
+        {
+            "result": {
+                "value": "MPDL",
+                "type": "Organization"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "date_created": [
+        {
+            "result": {
+                "value": "2022-07-20T06:29:18Z",
+                "type": "Date"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "date_updated": [
+        {
+            "result": {
+                "value": "2023-11-10T08:50:04Z",
+                "type": "Date"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "license": [
+        {
+            "result": {
+                "value": "https://api.github.com/licenses/bsd-3-clause",
+                "type": "License",
+                "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+                "url": "https://api.github.com/licenses/bsd-3-clause",
+                "spdx_id": "BSD-3-Clause"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "BSD 3-Clause License\n\nCopyright (c) 2017, Project Jupyter Contributors\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n* Redistributions of source code must retain the above copyright notice, this\n  list of conditions and the following disclaimer.\n\n* Redistributions in binary form must reproduce the above copyright notice,\n  this list of conditions and the following disclaimer in the documentation\n  and/or other materials provided with the distribution.\n\n* Neither the name of the copyright holder nor the names of its\n  contributors may be used to endorse or promote products derived from\n  this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n",
+                "type": "File_dump"
+            },
+            "confidence": 1,
+            "technique": "file_exploration",
+            "source": "https://raw.githubusercontent.com/MPDL/repo2docker/main/LICENSE"
+        }
+    ],
+    "description": [
+        {
+            "result": {
+                "value": "Turn repositories into Jupyter-enabled Docker images",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "type": "Text_excerpt",
+                "value": "`repo2docker` fetches a git repository and builds a container image based on\nthe configuration files found in the repository. \nSee the [repo2docker documentation](http://repo2docker.readthedocs.io)\nfor more information on using repo2docker. \nSee the [contributing guide](CONTRIBUTING.md) for information on contributing to\nrepo2docker. \nPlease note that this repository is participating in a study into sustainability\nof open source projects. Data will be gathered about this repository for\napproximately the next 12 months, starting from 2021-06-11. \n",
+                "original_header": "<a href=\"https://github.com/jupyterhub/repo2docker\"><img src=\"https://raw.githubusercontent.com/jupyterhub/repo2docker/8731ecf0967cc5fde028c456f2b92be651ebbc18/docs/source/_static/images/repo2docker.png\" height=\"48px\" /> repo2docker</a>"
+            },
+            "confidence": 0.9776807483017111,
+            "technique": "supervised_classification",
+            "source": "https://raw.githubusercontent.com/MPDL/repo2docker/main/README.md"
+        },
+        {
+            "result": {
+                "type": "Text_excerpt",
+                "value": "Repo2Docker looks for configuration files in the source repository to\ndetermine how the Docker image should be built. For a list of the configuration\nfiles that `repo2docker` can use, see the\n[complete list of configuration files](https://repo2docker.readthedocs.io/en/latest/config_files.html). \nThe philosophy of repo2docker is inspired by\n[Heroku Build Packs](https://devcenter.heroku.com/articles/buildpacks).\n \n",
+                "original_header": "Repository specifications"
+            },
+            "confidence": 0.9637539692571766,
+            "technique": "supervised_classification",
+            "source": "https://raw.githubusercontent.com/MPDL/repo2docker/main/README.md"
+        }
+    ],
+    "name": [
+        {
+            "result": {
+                "value": "repo2docker",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "full_name": [
+        {
+            "result": {
+                "value": "MPDL/repo2docker",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "issue_tracker": [
+        {
+            "result": {
+                "value": "https://api.github.com/repos/MPDL/repo2docker/issues",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "forks_url": [
+        {
+            "result": {
+                "value": "https://api.github.com/repos/MPDL/repo2docker/forks",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "stargazers_count": [
+        {
+            "result": {
+                "value": 0,
+                "type": "Number"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "keywords": [
+        {
+            "result": {
+                "value": "",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "forks_count": [
+        {
+            "result": {
+                "value": 0,
+                "type": "Number"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "download_url": [
+        {
+            "result": {
+                "value": "https://github.com/MPDL/repo2docker/releases",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "programming_languages": [
+        {
+            "result": {
+                "value": "Python",
+                "name": "Python",
+                "type": "Programming_language",
+                "size": 434335
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "Shell",
+                "name": "Shell",
+                "type": "Programming_language",
+                "size": 10555
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "Nix",
+                "name": "Nix",
+                "type": "Programming_language",
+                "size": 3693
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "Julia",
+                "name": "Julia",
+                "type": "Programming_language",
+                "size": 3674
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "Dockerfile",
+                "name": "Dockerfile",
+                "type": "Programming_language",
+                "size": 1863
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "R",
+                "name": "R",
+                "type": "Programming_language",
+                "size": 1139
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "Makefile",
+                "name": "Makefile",
+                "type": "Programming_language",
+                "size": 234
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "has_build_file": [
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/repo2docker/main/Dockerfile",
+                "type": "Url",
+                "format": "dockerfile"
+            },
+            "confidence": 1,
+            "technique": "file_exploration",
+            "source": "https://raw.githubusercontent.com/MPDL/repo2docker/main/Dockerfile"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/repo2docker/main/tests/conda/py35-binder-dir/Dockerfile",
+                "type": "Url",
+                "format": "dockerfile"
+            },
+            "confidence": 1,
+            "technique": "file_exploration",
+            "source": "https://raw.githubusercontent.com/MPDL/repo2docker/main/tests/conda/py35-binder-dir/Dockerfile"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/repo2docker/main/tests/dockerfile/simple/Dockerfile",
+                "type": "Url",
+                "format": "dockerfile"
+            },
+            "confidence": 1,
+            "technique": "file_exploration",
+            "source": "https://raw.githubusercontent.com/MPDL/repo2docker/main/tests/dockerfile/simple/Dockerfile"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/repo2docker/main/tests/dockerfile/editable/Dockerfile",
+                "type": "Url",
+                "format": "dockerfile"
+            },
+            "confidence": 1,
+            "technique": "file_exploration",
+            "source": "https://raw.githubusercontent.com/MPDL/repo2docker/main/tests/dockerfile/editable/Dockerfile"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/repo2docker/main/tests/dockerfile/binder-dir/Dockerfile",
+                "type": "Url",
+                "format": "dockerfile"
+            },
+            "confidence": 1,
+            "technique": "file_exploration",
+            "source": "https://raw.githubusercontent.com/MPDL/repo2docker/main/tests/dockerfile/binder-dir/Dockerfile"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/repo2docker/main/tests/dockerfile/binder-dir/binder/Dockerfile",
+                "type": "Url",
+                "format": "dockerfile"
+            },
+            "confidence": 1,
+            "technique": "file_exploration",
+            "source": "https://raw.githubusercontent.com/MPDL/repo2docker/main/tests/dockerfile/binder-dir/binder/Dockerfile"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/repo2docker/main/tests/dockerfile/jupyter-stack/Dockerfile",
+                "type": "Url",
+                "format": "dockerfile"
+            },
+            "confidence": 1,
+            "technique": "file_exploration",
+            "source": "https://raw.githubusercontent.com/MPDL/repo2docker/main/tests/dockerfile/jupyter-stack/Dockerfile"
+        }
+    ],
+    "contributing_guidelines": [
+        {
+            "result": {
+                "value": "# Contributing to repo2docker development\n\n:sparkles: Thank you for thinking about contributing to repo2docker! :sparkles:\n\n(And thank you particularly for coming to read the guidelines! :heart_eyes:)\n\nThe repo2docker developer documentation is all rendered on our documentation website: [https://repo2docker.readthedocs.io](https://repo2docker.readthedocs.io).\nIf you're here, you're probably looking for the [Contributing to repo2docker development](https://repo2docker.readthedocs.io/en/latest/contributing/contributing.html) page.\n\nPlease make sure you've read the following sections before opening an issue/pull request:\n\n- [Process for making a contribution](https://repo2docker.readthedocs.io/en/latest/contributing/contributing.html#process-for-making-a-contribution).\n  - These steps talk you through choosing the right issue template (bug report or feature request) and making a change.\n- [Guidelines to getting a Pull Request merged](https://repo2docker.readthedocs.io/en/latest/contributing/contributing.html#guidelines-to-getting-a-pull-request-merged).\n  - These are tips and tricks to help make your contribution as smooth as possible for you and for the repo2docker maintenance team.\n\nThere are a few other pages to highlight:\n\n- [Our roadmap](https://repo2docker.readthedocs.io/en/latest/contributing/roadmap.html)\n  - We use the roadmap to develop a shared understanding of the project's vision and direction amongst the community of users, contributors, and maintainers.\n    This is a great place to get a feel for what the maintainers are thinking about for the short, medium, and long term future of the project.\n- [Design of repo2docker](https://repo2docker.readthedocs.io/en/latest/design.html)\n  - This page explains some of the design principles behind repo2docker.\n    Its a good place to understand _why_ the team have made the decisions that they have along the way!\n  - We absolutely encourage discussion around refactoring, updating or extending repo2docker, but please make sure that you've understood this page before opening an issue to discuss the change you'd like to propose.\n- [Common developer tasks and how-tos](https://repo2docker.readthedocs.io/en/latest/contributing/tasks.html)\n  - Some notes on running tests, buildpack dependencies, creating a release, and keeping the pip files up to date.\n",
+                "type": "File_dump"
+            },
+            "confidence": 1,
+            "technique": "file_exploration",
+            "source": "https://raw.githubusercontent.com/MPDL/repo2docker/main/CONTRIBUTING.md"
+        },
+        {
+            "result": {
+                "value": "# Contributing to repo2docker\n\nThank you for thinking about contributing to repo2docker!\nThis is an open source project that is developed and maintained entirely by volunteers.\n_Your contribution_ is integral to the future of the project.\nTHANK YOU!\n\n## Types of contribution\n\nThere are many ways to contribute to repo2docker:\n\n- **Update the documentation.**\n  If you're reading a page or docstring and it doesn't make sense (or doesn't exist!), please let us know by opening a bug report.\n  It's even more amazing if you can give us a suggested change.\n- **Fix bugs or add requested features.**\n  Have a look through the [issue tracker](https://github.com/jupyterhub/repo2docker/issues) and see if there are any tagged as [\"help wanted\"](https://github.com/jupyterhub/repo2docker/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22).\n  As the label suggests, we'd love your help!\n- **Report a bug.**\n  If repo2docker isn't doing what you thought it would do then open a [bug report](https://github.com/jupyterhub/repo2docker/issues/new?template=bug_report.md).\n  That issue template will ask you a few questions described in more detail below.\n- **Suggest a new feature.**\n  We know that there are lots of ways to extend repo2docker!\n  If you're interested in adding a feature then please open a [feature request](https://github.com/jupyterhub/repo2docker/issues/new?template=feature_request.md).\n  That issue template will ask you a few questions described in detail below.\n- **Review someone's Pull Request.**\n  Whenever somebody proposes changes to the repo2docker codebase, the community reviews\n  the changes, and provides feedback, edits, and suggestions. Check out the\n  [open pull requests](https://github.com/jupyterhub/repo2docker/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc)\n  and provide feedback that helps improve the PR and get it merged. Please keep your\n  feedback positive and constructive!\n- **Tell people about repo2docker.**\n  As we said above, repo2docker is built by and for its community.\n  If you know anyone who would like to use repo2docker, please tell them about the project!\n  You could give a talk about it, or run a demonstration.\n  The sky is the limit :rocket::star2:.\n\nIf you're not sure where to get started, then please come and say hello in our [Gitter channel](https://gitter.im/jupyterhub/binder), or open an discussion thread at the [Jupyter discourse forum](https://discourse.jupyter.org/).\n\n## Process for making a contribution\n\nThis outlines the process for getting changes to the repo2docker project merged.\n\n1. Identify the correct issue template: [bug report](https://github.com/jupyterhub/repo2docker/issues/new?template=bug_report.md) or [feature request](https://github.com/jupyterhub/repo2docker/issues/new?template=feature_request.md).\n\n   **Bug reports** ([examples](https://github.com/jupyterhub/repo2docker/issues?q=is%3Aissue+is%3Aopen+label%3Abug), [new issue](https://github.com/jupyterhub/repo2docker/issues/new?template=bug_report.md)) will ask you for a description of the problem, the expected behaviour, the actual behaviour, how to reproduce the problem, and your personal set up.\n   Bugs can include problems with the documentation, or code not running as expected.\n\n   It is really important that you make it easy for the maintainers to reproduce the problem you're having.\n   This guide on creating a [minimal, complete and verifiable example](https://stackoverflow.com/help/mcve) is a great place to start.\n\n   **Feature requests** ([examples](https://github.com/jupyterhub/repo2docker/labels/needs%3A%20discussion), [new issue](https://github.com/jupyterhub/repo2docker/issues/new?template=feature_request.md)) will ask you for the proposed change, any alternatives that you have considered, a description of who would use this feature, and a best-guess of how much work it will take and what skills are required to accomplish.\n\n   Very easy feature requests might be updates to the documentation to clarify steps for new users.\n   Harder feature requests may be to add new functionality to the project and will need more in depth discussion about who can complete and maintain the work.\n\n   Feature requests are a great opportunity for you to advocate for the use case you're suggesting.\n   They help others understand how much effort it would be to integrate the work,and - if you're successful at convincing them that this effort is worth it - make it more likely that they to choose to work on it with you.\n\n2. Open an issue.\n   Getting consensus with the community is a great way to save time later.\n3. Make edits in [your fork](https://help.github.com/en/articles/fork-a-repo) of the [repo2docker repository](https://github.com/jupyterhub/repo2docker).\n4. Make a [pull request](https://help.github.com/en/articles/about-pull-requests).\n   Read the [next section](guidelines-to-getting-a-pull-request-merged) for guidelines for both reviewers and contributors on merging a PR.\n5. Wait for a community member to merge your changes.\n   Remember that **someone else must merge your pull request**.\n   That goes for new contributors and long term maintainers alike.\n   Because `main` is continuously deployed to mybinder.org it is essential\n   that `main` is always in a deployable state.\n6. (optional) Deploy a new version of repo2docker to mybinder.org by [following these steps](http://mybinder-sre.readthedocs.io/en/latest/deployment/how.html)\n\n(guidelines-to-getting-a-pull-request-merged)=\n\n## Guidelines to getting a Pull Request merged\n\nThese are not hard rules to be enforced by \ud83d\ude93 but they are suggestions written by the repo2docker maintainers to help complete your contribution as smoothly as possible for both you and for them.\n\n- **Create a PR as early as possible**, marking it with `[WIP]` while you work on it.\n  This avoids duplicated work, lets you get high level feedback on functionality or API changes, and/or helps find collaborators to work with you.\n- **Keep your PR focused.**\n  The best PRs solve one problem.\n  If you end up changing multiple things, please open separate PRs for the different conceptual changes.\n- **Add tests to your code.**\n  PRs will not be merged if Travis is failing.\n- **Apply [PEP8](https://www.python.org/dev/peps/pep-0008/)** as much as possible, but not too much.\n  If in doubt, ask.\n- **Use merge commits** instead of merge-by-squashing/-rebasing.\n  This makes it easier to find all changes since the last deployment `git log --merges --pretty=format:\"%h %<(10,trunc)%an %<(15)%ar %s\" <deployed-revision>..` and your PR easier to review.\n- **Make it clear when your PR is ready for review.**\n  Prefix the title of your pull request (PR) with `[MRG]` if the contribution is complete and should be subjected to a detailed review.\n- **Use commit messages to describe _why_ you are proposing the changes you are proposing.**\n- **Try to not rush changes** (the definition of rush depends on how big your changes are).\n  Remember that everyone in the repo2docker team is a volunteer and we can not (nor would we want to) control their time or interests.\n  Wait patiently for a reviewer to merge the PR.\n  (Remember that **someone else** must merge your PR, even if you have the admin rights to do so.)\n\n(contributing:local-dev)=\n\n## Setting up for Local Development\n\nTo develop & test repo2docker locally, you need:\n\n1. Familiarity with using a command line terminal\n2. A computer running macOS / Linux\n3. Some knowledge of git\n4. At least python 3.6\n5. Your favorite text editor\n6. A recent version of [Docker Community Edition](https://www.docker.com/community-edition)\n\n### Clone the repository\n\nFirst, you need to get a copy of the repo2docker git repository on your local\ndisk. Fork the repository on GitHub, then clone it to your computer:\n\n```bash\ngit clone https://github.com/<your-username>/repo2docker\n```\n\nThis will clone repo2docker into a directory called `repo2docker`. You can\nmake that your current directory with `cd repo2docker`.\n\n### Set up a local virtual environment\n\nAfter cloning the repository, you should set up an\nisolated environment to install libraries required for running / developing\nrepo2docker.\n\n```bash\npython3 -m venv .\nsource bin/activate\npip3 install -e .\npip3 install -r dev-requirements.txt\npip3 install -r docs/requirements.txt\npip3 install black\n```\n\nThis should install all the libraries required for testing & running repo2docker!\n\n### Code formatting\n\nWe use [`black`](https://black.readthedocs.io/en/stable/) as code formatter to\nget a consistent layout for all the code in this project. This makes reading\nthe code easier.\n\nTo format your code run `black .` in the top-level directory of this repository.\nMany editors have plugins that will automatically apply black as you edit files.\n\nWe also have a pre-commit hook setup that will check that code is formatted\naccording to black's style guide. You can activate it with `pre-commit install`.\n\nAs part of our continuous integration tests we will check that code is\nformatted properly and the tests will fail if this is not the case.\n\n### Verify that docker is installed and running\n\nIf you do not already have [Docker](https://www.docker.com/), you should be able\nto download and install it for your operating system using the links from the\n[official website](https://www.docker.com/community-edition). After you have\ninstalled it, you can verify that it is working by running the following commands:\n\n```bash\ndocker version\n```\n\nIt should output something like:\n\n```\nClient:\n Version:      17.09.0-ce\n API version:  1.32\n Go version:   go1.8.3\n Git commit:   afdb6d4\n Built:        Tue Sep 26 22:42:45 2017\n OS/Arch:      linux/amd64\n\nServer:\n Version:      17.09.0-ce\n API version:  1.32 (minimum version 1.12)\n Go version:   go1.8.3\n Git commit:   afdb6d4\n Built:        Tue Sep 26 22:41:24 2017\n OS/Arch:      linux/amd64\n Experimental: false\n```\n\nThen you are good to go!\n\n## Building the documentation locally\n\nYou can build and inspect the result of documentation changes locally.\n\n```bash\npip install -e .\npip install -r docs/requirements.txt\n\ncd docs/\nmake devenv\n```\n",
+                "type": "File_dump"
+            },
+            "confidence": 1,
+            "technique": "file_exploration",
+            "source": "https://raw.githubusercontent.com/MPDL/repo2docker/main/docs/source/contributing/contributing.md"
+        }
+    ],
+    "readme_url": [
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/repo2docker/main/README.md",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        }
+    ],
+    "documentation": [
+        {
+            "result": {
+                "value": "https://github.com/MPDL/repo2docker/tree/main/docs",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "type": "Url",
+                "value": "http://repo2docker.readthedocs.io/",
+                "format": "readthedocs"
+            },
+            "confidence": 1,
+            "technique": "regular_expression",
+            "source": "https://raw.githubusercontent.com/MPDL/repo2docker/main/README.md"
+        },
+        {
+            "result": {
+                "type": "Url",
+                "value": "https://repo2docker.readthedocs.io/",
+                "format": "readthedocs"
+            },
+            "confidence": 1,
+            "technique": "regular_expression",
+            "source": "https://raw.githubusercontent.com/MPDL/repo2docker/main/README.md"
+        }
+    ],
+    "has_script_file": [
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/repo2docker/main/tests/r/r-rspm-apt-file/verify.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/repo2docker/main/tests/dockerfile/simple/sayhi.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/repo2docker/main/tests/dockerfile/editable/change.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/repo2docker/main/tests/dockerfile/binder-dir/sayhi.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/repo2docker/main/repo2docker/buildpacks/conda/activate-conda.sh",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        }
+    ],
+    "requirements": [
+        {
+            "result": {
+                "value": "1. Docker to build & run the repositories. The [community edition](https://store.docker.com/search?type=edition&offering=community)\n   is recommended.\n2. Python 3.6+.\n\nSupported on Linux and macOS. [See documentation note about Windows support.](http://repo2docker.readthedocs.io/en/latest/install.html#note-about-windows-support)\n",
+                "type": "Text_excerpt",
+                "original_header": "Prerequisites",
+                "parent_header": [
+                    "<a href=\"https://github.com/jupyterhub/repo2docker\"><img src=\"https://raw.githubusercontent.com/jupyterhub/repo2docker/8731ecf0967cc5fde028c456f2b92be651ebbc18/docs/source/_static/images/repo2docker.png\" height=\"48px\" /> repo2docker</a>",
+                    "Using repo2docker"
+                ]
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/repo2docker/main/README.md"
+        }
+    ],
+    "installation": [
+        {
+            "result": {
+                "value": "This a quick guide to installing `repo2docker`, see our documentation for [a full guide](https://repo2docker.readthedocs.io/en/latest/install.html).\n\nTo install from PyPI:\n\n```bash\npip install jupyter-repo2docker\n```\n\nTo install from source:\n\n```bash\ngit clone https://github.com/jupyterhub/repo2docker.git\ncd repo2docker\npip install -e .\n```\n",
+                "type": "Text_excerpt",
+                "original_header": "Installation",
+                "parent_header": [
+                    "<a href=\"https://github.com/jupyterhub/repo2docker\"><img src=\"https://raw.githubusercontent.com/jupyterhub/repo2docker/8731ecf0967cc5fde028c456f2b92be651ebbc18/docs/source/_static/images/repo2docker.png\" height=\"48px\" /> repo2docker</a>",
+                    "Using repo2docker"
+                ]
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/repo2docker/main/README.md"
+        }
+    ],
+    "usage": [
+        {
+            "result": {
+                "value": "The core feature of repo2docker is to fetch a git repository (from GitHub or locally),\nbuild a container image based on the specifications found in the repository &\noptionally launch the container that you can use to explore the repository.\n\n**Note that Docker needs to be running on your machine for this to work.**\n\nExample:\n\n```bash\njupyter-repo2docker https://github.com/norvig/pytudes\n```\n\nAfter building (it might take a while!), it should output in your terminal\nsomething like:\n\n```bash\n    Copy/paste this URL into your browser when you connect for the first time,\n    to login with a token:\n        http://0.0.0.0:36511/?token=f94f8fabb92e22f5bfab116c382b4707fc2cade56ad1ace0\n```\n\nIf you copy paste that URL into your browser you will see a Jupyter Notebook\nwith the contents of the repository you had just built!\n\nFor more information on how to use `repo2docker`, see the\n[usage guide](http://repo2docker.readthedocs.io/en/latest/usage.html).\n",
+                "type": "Text_excerpt",
+                "original_header": "Usage",
+                "parent_header": [
+                    "<a href=\"https://github.com/jupyterhub/repo2docker\"><img src=\"https://raw.githubusercontent.com/jupyterhub/repo2docker/8731ecf0967cc5fde028c456f2b92be651ebbc18/docs/source/_static/images/repo2docker.png\" height=\"48px\" /> repo2docker</a>",
+                    "Using repo2docker"
+                ]
+            },
+            "confidence": 1,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/MPDL/repo2docker/main/README.md"
+        }
+    ],
+    "full_title": [
+        {
+            "result": {
+                "type": "String",
+                "value": " repo2docker"
+            },
+            "confidence": 1,
+            "technique": "regular_expression",
+            "source": "https://raw.githubusercontent.com/MPDL/repo2docker/main/README.md"
+        }
+    ],
+    "logo": [
+        {
+            "result": {
+                "type": "Url",
+                "value": "https://raw.githubusercontent.com/jupyterhub/repo2docker/8731ecf0967cc5fde028c456f2b92be651ebbc18/docs/source/_static/images/repo2docker.png"
+            },
+            "confidence": 1,
+            "technique": "regular_expression",
+            "source": "https://raw.githubusercontent.com/MPDL/repo2docker/main/README.md"
+        }
+    ]
+}

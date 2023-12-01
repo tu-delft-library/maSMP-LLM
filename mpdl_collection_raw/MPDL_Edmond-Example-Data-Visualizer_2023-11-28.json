@@ -1,0 +1,228 @@
+{
+    "somef_provenance": {
+        "somef_version": "0.9.4",
+        "somef_schema_version": "1.0.0",
+        "date": "2023-11-28 15:31:47"
+    },
+    "code_repository": [
+        {
+            "result": {
+                "value": "https://github.com/MPDL/Edmond-Example-Data-Visualizer",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "owner": [
+        {
+            "result": {
+                "value": "MPDL",
+                "type": "Organization"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "date_created": [
+        {
+            "result": {
+                "value": "2023-03-07T09:27:54Z",
+                "type": "Date"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "date_updated": [
+        {
+            "result": {
+                "value": "2023-03-24T10:06:14Z",
+                "type": "Date"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "license": [
+        {
+            "result": {
+                "value": "https://api.github.com/licenses/mit",
+                "type": "License",
+                "name": "MIT License",
+                "url": "https://api.github.com/licenses/mit",
+                "spdx_id": "MIT"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "name": [
+        {
+            "result": {
+                "value": "Edmond-Example-Data-Visualizer",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "full_name": [
+        {
+            "result": {
+                "value": "MPDL/Edmond-Example-Data-Visualizer",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "issue_tracker": [
+        {
+            "result": {
+                "value": "https://api.github.com/repos/MPDL/Edmond-Example-Data-Visualizer/issues",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "forks_url": [
+        {
+            "result": {
+                "value": "https://api.github.com/repos/MPDL/Edmond-Example-Data-Visualizer/forks",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "stargazers_count": [
+        {
+            "result": {
+                "value": 1,
+                "type": "Number"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "keywords": [
+        {
+            "result": {
+                "value": "",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "forks_count": [
+        {
+            "result": {
+                "value": 0,
+                "type": "Number"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "download_url": [
+        {
+            "result": {
+                "value": "https://github.com/MPDL/Edmond-Example-Data-Visualizer/releases",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "programming_languages": [
+        {
+            "result": {
+                "value": "Jupyter Notebook",
+                "name": "Jupyter Notebook",
+                "type": "Programming_language",
+                "size": 817779
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "executable_example": [
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/Edmond-Example-Data-Visualizer/main/Visualization_GSH.ipynb",
+                "type": "Url",
+                "format": "jupyter_notebook"
+            },
+            "confidence": 1,
+            "technique": "file_exploration",
+            "source": "https://raw.githubusercontent.com/MPDL/Edmond-Example-Data-Visualizer/main/Visualization_GSH.ipynb"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/Edmond-Example-Data-Visualizer/main/Visualization_CPT.ipynb",
+                "type": "Url",
+                "format": "jupyter_notebook"
+            },
+            "confidence": 1,
+            "technique": "file_exploration",
+            "source": "https://raw.githubusercontent.com/MPDL/Edmond-Example-Data-Visualizer/main/Visualization_CPT.ipynb"
+        },
+        {
+            "result": {
+                "type": "Url",
+                "value": "https://mybinder.org/v2/gh/MPDL/Edmond-Example-Data-Visualizer/HEAD"
+            },
+            "confidence": 1,
+            "technique": "regular_expression",
+            "source": "https://raw.githubusercontent.com/MPDL/Edmond-Example-Data-Visualizer/main/README.md"
+        }
+    ],
+    "citation": [
+        {
+            "result": {
+                "value": "cff-version: 1.2.0\ntitle: Edmond-Example-Data-Visualizer\nmessage: >-\n  If you use this software, please cite it using the\n  metadata from this file.\ntype: software\nauthors:\n  - given-names: Jan Oliver\n    family-names: Matthiesen\n    email: matthiesen@mpdl.mpg.de\n    orcid: 'https://orcid.org/0000-0001-6548-3654'\n    affiliation: Max Planck Digital Library\nidentifiers:\n  - type: doi\n    value: 10.17617/1.99\nrepository-code: 'https://github.com/MPDL/Edmond-Example-Data-Visualizer'\nlicense: MIT\n",
+                "type": "File_dump",
+                "format": "cff"
+            },
+            "confidence": 1,
+            "technique": "file_exploration",
+            "source": "https://raw.githubusercontent.com/MPDL/Edmond-Example-Data-Visualizer/main/CITATION.cff"
+        }
+    ],
+    "readme_url": [
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/MPDL/Edmond-Example-Data-Visualizer/main/README.md",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        }
+    ],
+    "description": [
+        {
+            "result": {
+                "type": "Text_excerpt",
+                "value": "This repository includes a Jupyter notebook that provides an illustrative example of a research data visualization methodology that can facilitate understanding of complex information. The research data were drawn from the Edmond Research Data Repository from the publication Majorities for Minorities: Participatory Constitution Making and the Protection of Minority Rights (https://doi.org/10.17617/3.0XWBTA). As an example, key variables from the paper, such as the minority rights index and population participation for different countries, were plotted on a map for better understanding. Charts were also created to illustrate the hypotheses proposed in the study. \n",
+                "original_header": "Edmond-Example-Data-Visualizer"
+            },
+            "confidence": 0.9828361362528019,
+            "technique": "supervised_classification",
+            "source": "https://raw.githubusercontent.com/MPDL/Edmond-Example-Data-Visualizer/main/README.md"
+        }
+    ],
+    "full_title": [
+        {
+            "result": {
+                "type": "String",
+                "value": "Edmond-Example-Data-Visualizer"
+            },
+            "confidence": 1,
+            "technique": "regular_expression",
+            "source": "https://raw.githubusercontent.com/MPDL/Edmond-Example-Data-Visualizer/main/README.md"
+        }
+    ]
+}
