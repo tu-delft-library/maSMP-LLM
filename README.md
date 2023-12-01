@@ -25,12 +25,12 @@ Install the module:
 pip install -r requirements.txt
 ```
 
-
+## Use Cases
 
 
 ## Acknowledges
 ---
-The activities was carried out during the maSMP hackathon at [ZB MED](https://www.zbmed.de/en/) sponsored by [NFDI4DataScience](https://www.nfdi4datascience.de/). NFDI4DataScience is a consortium funded by the German Research Foundation (DFG), project number 460234259.
+The activity was carried out during the maSMP hackathon at [ZB MED](https://www.zbmed.de/en/) sponsored by [NFDI4DataScience](https://www.nfdi4datascience.de/). NFDI4DataScience is a consortium funded by the German Research Foundation (DFG), project number 460234259.
 
 ## ☑️ TODO
 
