@@ -29,7 +29,7 @@ Install the module:
 pip install -r requirements.txt
 ```
 
-## Experiemnts
+## Experiments
 ---
 Here you find executable notebooks:
 -  [01_embeddingsOneDoc.ipynb](notebooks/01_embeddingsOneDoc.ipynb)
