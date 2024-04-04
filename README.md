@@ -1,6 +1,6 @@
 # RAG over maSMP
 
-This repository contains few eperiments around Retrieval-augmented generation (RAF) and Machine-actionable Software Management Plans (SMP) for the [NFDI4DS Mini Hackathons](https://www.nfdi4datascience.de/community/events/minihackathons/) at ZB Med in Cologne.
+This repository contains few experiments around Retrieval-augmented generation (RAF) and Machine-actionable Software Management Plans (SMP) for the [NFDI4DS Mini Hackathons](https://www.nfdi4datascience.de/community/events/minihackathons/) at ZB Med in Cologne.
 
 ## Use case
 ---
